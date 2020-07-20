@@ -1,5 +1,5 @@
 baseURL = "https://sall.w-ss.io/public/"
-title   = "Hello"
+title   = "Salvydas Lukosius"
 languageCode = "en-us"
 theme = "hello"
 
@@ -18,8 +18,8 @@ dataDir      = "data"
 layoutDir    = "layouts"
 publishDir   = "public"
 
-buildDrafts  = false
-buildFuture  = false
+buildDrafts  = true
+buildFuture  = true
 buildExpired = false
 canonifyURLs = true
 
@@ -53,11 +53,11 @@ disableHugoGeneratorInject = false
   dateformNumTime = "20020-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Homepage"
-  keywords = ""
+  description = "Personal Blog | Salvydas Lukosius"
+  keywords = "Salvydas, Lukosius, Digital, Clouds, Blog"
   images = ["/img"]
 
-  homeSubtitle = "Hello Friend NG"
+  homeSubtitle = "Personal Blog | Digital Clouds | WiseHub MG LTD"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
@@ -95,15 +95,15 @@ disableHugoGeneratorInject = false
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
     # Set to a valid CSS color to change the cursor in the logo.
-    # logoCursorColor    = "#67a2c9"
+    logoCursorColor    = "#00FF00"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    logoCursorAnimate  = "2s"
+    logoCursorAnimate  = "3s"
 
   # Uncomment this if you want a portrait on your start page
   [params.portrait]
-     path     = "/img/ninj.png"
-     alt      = "Portrait"
-     maxWidth = "50px"
+     path     = "img/ninj.png"
+     alt      = "avatar"
+     maxWidth = "260px"
 
   # Social icons
   [[params.social]]
@@ -119,6 +119,10 @@ disableHugoGeneratorInject = false
     url  = "https://github.com/ss-o/"
 
   [[params.social]]
+    name = "gitlab"
+    url  = "https://gitlab.com/sall-lab/"
+
+  [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/digital-clouds/"
 
@@ -128,9 +132,9 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = "Digital Clouds Projects"
     weight    = 1
-    copyright = '@Digital-Clouds | WiseHubMG LTD'
+    copyright = 'Digital Clouds | WiseHub MG LTD'
 
 #  [languages.lt]
 #    subtitle  = "Hello Friend NG Theme"
