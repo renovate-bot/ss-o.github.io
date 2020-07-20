@@ -34,8 +34,8 @@ paginate = 5
       logoHomeLink = "/"
     # or
     #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+     path = "/img/hello.jpg"
+     alt = "pic"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
