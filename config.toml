@@ -97,10 +97,10 @@ disableHugoGeneratorInject = false
     # Set to a valid CSS color to change the cursor in the logo.
     # logoCursorColor    = "#67a2c9"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    # logoCursorAnimate  = "2s"
+    logoCursorAnimate  = "2s"
 
   # Uncomment this if you want a portrait on your start page
-  # [params.portrait]
+  [params.portrait]
     path     = "/img/ninj.png"
      alt      = "Portrait"
      maxWidth = "50px"
