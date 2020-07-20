@@ -1,4 +1,4 @@
-baseurl = "https://sall.w-ss.io.io/public/"
+baseurl = "https://sall.w-ss.io/public/"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
@@ -44,7 +44,7 @@ paginate = 5
     # lastModDisplay = ""
 
     [languages.en.params.logo]
-      logoText = "hello friend"
+      logoText = "cd /home/sall"
       logoHomeLink = "/"
     # or
     #
