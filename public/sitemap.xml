@@ -3,40 +3,133 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sall.w-ss.io/public/post/hello/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <loc>https://sall.w-ss.io/public/posts/2014/09/creating-a-new-theme/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sall.w-ss.io/public/post/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/public/about/</loc>
-    <lastmod>2019-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/public/</loc>
-    <lastmod>2019-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/public/showcase/</loc>
-    <lastmod>2019-01-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/public/archive/</loc>
+    <loc>https://sall.w-ss.io/public/posts/2014/03/migrate-to-hugo-from-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://sall.w-ss.io/public/categories/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/categories/hugo/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/series/hugo-101/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/posts/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/series/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/posts/2014/04/hugo-template-primer/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/categories/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/posts/2014/04/d%C3%A9buter-avec-hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/posts/2014/04/getting-started-with-hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/categories/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/tags/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/categories/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/tags/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/posts/2014/04/introduction-aux-mod%C3%A8les-hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://sall.w-ss.io/public/tags/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/tags/templates/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/tags/themes/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/categories/jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/posts/2014/03/migrer-vers-hugo-depuis-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
