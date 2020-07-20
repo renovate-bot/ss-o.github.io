@@ -11,15 +11,14 @@ paginate = 5
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
   # Enable to show reading time in minutes for posts
-  showReadingTime = false
-
+  showReadingTime = true
+  
 [languages]
   [languages.en]
-    title = "Hello Friend"
-    image = "img/hello.jpg"
-    subtitle = "A simple theme for Hugo"
+    title = "Hello I'm Sall"
+    subtitle = "Digital Clouds Projects"
     keywords = ""
-    copyright = ""
+    copyright = "WiseHub MG | Digital Clouds"
     menuMore = "Show more"
     writtenBy = "Written by"
     readMore = "Read more"
@@ -31,8 +30,8 @@ paginate = 5
     dateFormatList = "2006-01-02"
 
     [languages.en.params.logo]
-      logoText = "hello friend"
-      logoHomeLink = "/"
+      logoText = "cd /home/sall"
+      logoHomeLink = "https://sall.w-ss.io/public/"
     # or
     #
     # path = "/img/hello.jpg"

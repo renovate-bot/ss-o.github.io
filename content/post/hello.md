@@ -1,8 +1,8 @@
 +++
 title = "Hello Friend"
-date = "1986-09-17"
-author = "Elliot"
-cover = "img/hello.jpg"
+date = "2020-07-01"
+author = "Salvydas Lukosius"
+cover = "/img/ninj.png"
 description = "\"Hello, friend?\" That's lame. Maybe I should give you a name?"
 +++
 
