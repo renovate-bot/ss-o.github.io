@@ -1,4 +1,4 @@
-baseurl = "https://sall.w-ss.io.io/public/"
+baseurl = "https://sall.w-ss.io/public/"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
