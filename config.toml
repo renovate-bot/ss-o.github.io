@@ -28,6 +28,7 @@ paginate = 5
 [languages]
   [languages.en]
     title = "Hello Friend"
+    image = "static/img/ninj.png" 
     subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = ""

@@ -5,21 +5,21 @@
     
     
     
-    <link>https://sall.w-ss.io.io/public/</link>
+    <link>https://sall.w-ss.io/public/</link>
     <description>Recent content on Hello Friend</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 25 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://sall.w-ss.io.io/public/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sall.w-ss.io/public/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://sall.w-ss.io.io/public/about/</link>
+      <link>https://sall.w-ss.io/public/about/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sall.w-ss.io.io/public/about/</guid>
+      <guid>https://sall.w-ss.io/public/about/</guid>
       <description>
         
           
@@ -38,10 +38,10 @@ This theme is pretty basic and covers all of the essentials. All you have to do 
     
     <item>
       <title>Showcase</title>
-      <link>https://sall.w-ss.io.io/public/showcase/</link>
+      <link>https://sall.w-ss.io/public/showcase/</link>
       <pubDate>Fri, 18 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sall.w-ss.io.io/public/showcase/</guid>
+      <guid>https://sall.w-ss.io/public/showcase/</guid>
       <description>
         
           
@@ -58,13 +58,13 @@ This theme is pretty basic and covers all of the essentials. All you have to do 
     
     <item>
       <title>Hello Friend</title>
-      <link>https://sall.w-ss.io.io/public/post/hello/</link>
+      <link>https://sall.w-ss.io/public/post/hello/</link>
       <pubDate>Wed, 17 Sep 1986 00:00:00 +0000</pubDate>
       
-      <guid>https://sall.w-ss.io.io/public/post/hello/</guid>
+      <guid>https://sall.w-ss.io/public/post/hello/</guid>
       <description>
         
-          &lt;img src=&#34;https://sall.w-ss.io.io/public/img/hello.jpg&#34;/&gt;
+          &lt;img src=&#34;https://sall.w-ss.io/public/img/hello.jpg&#34;/&gt;
           
         
         
@@ -77,10 +77,10 @@ This theme is pretty basic and covers all of the essentials. All you have to do 
     
     <item>
       <title>Archive</title>
-      <link>https://sall.w-ss.io.io/public/archive/</link>
+      <link>https://sall.w-ss.io/public/archive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sall.w-ss.io.io/public/archive/</guid>
+      <guid>https://sall.w-ss.io/public/archive/</guid>
       <description>
         
           
