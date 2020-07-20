@@ -55,7 +55,7 @@ disableHugoGeneratorInject = false
   # Metadata mostly used in document's head
   description = "Homepage"
   keywords = ""
-  images = [""]
+  images = ["/img"]
 
   homeSubtitle = "Hello Friend NG"
 
@@ -101,7 +101,7 @@ disableHugoGeneratorInject = false
 
   # Uncomment this if you want a portrait on your start page
   [params.portrait]
-    path     = "/img/ninj.png"
+     path     = "/img/ninj.png"
      alt      = "Portrait"
      maxWidth = "50px"
 
