@@ -16,6 +16,7 @@ paginate = 5
 [languages]
   [languages.en]
     title = "Hello Friend"
+    image = "img/hello.jpg"
     subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = ""
@@ -34,8 +35,8 @@ paginate = 5
       logoHomeLink = "/"
     # or
     #
-     path = "/img/hello.jpg"
-     alt = "pic"
+    # path = "/img/hello.jpg"
+    # alt = "pic"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
