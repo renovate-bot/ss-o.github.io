@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sall.w-ss.io/public/about/</loc>
+    <loc>https://sall.w-ss.io/public/pages/about/</loc>
+    <lastmod>2020-07-25T19:57:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/pages/</loc>
+    <lastmod>2020-07-25T19:57:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/</loc>
     <lastmod>2020-07-25T19:57:50+00:00</lastmod>
   </url>
   
@@ -14,11 +24,6 @@
   
   <url>
     <loc>https://sall.w-ss.io/public/posts/</loc>
-    <lastmod>2020-07-20T14:54:10+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/public/</loc>
     <lastmod>2020-07-20T14:54:10+00:00</lastmod>
   </url>
   

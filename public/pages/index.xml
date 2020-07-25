@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Salvydas Lukosius</title>
-    <link>https://sall.w-ss.io/public/</link>
-    <description>Recent content on Salvydas Lukosius</description>
+    <title>Pages on Salvydas Lukosius</title>
+    <link>https://sall.w-ss.io/public/pages/</link>
+    <description>Recent content in Pages on Salvydas Lukosius</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Digital Clouds | WiseHub MG LTD</copyright>
     <lastBuildDate>Sat, 25 Jul 2020 19:57:50 +0000</lastBuildDate>
     
-	<atom:link href="https://sall.w-ss.io/public/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sall.w-ss.io/public/pages/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       <pubDate>Sat, 25 Jul 2020 19:57:50 +0000</pubDate>
       
       <guid>https://sall.w-ss.io/public/pages/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Main</title>
-      <link>https://sall.w-ss.io/public/posts/2020/07/main/</link>
-      <pubDate>Mon, 20 Jul 2020 14:54:10 +0000</pubDate>
-      
-      <guid>https://sall.w-ss.io/public/posts/2020/07/main/</guid>
       <description></description>
     </item>
     
