@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sall.w-ss.io/public/about/about/</loc>
+    <lastmod>2020-07-25T19:57:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/about/</loc>
+    <lastmod>2020-07-25T19:57:50+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sall.w-ss.io/public/posts/2020/07/main/</loc>
     <lastmod>2020-07-20T14:54:10+00:00</lastmod>
   </url>

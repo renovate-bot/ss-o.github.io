@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Salvydas Lukosius</title>
+    <link>https://sall.w-ss.io/public/about/</link>
+    <description>Recent content in Abouts on Salvydas Lukosius</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Digital Clouds | WiseHub MG LTD</copyright>
+    <lastBuildDate>Sat, 25 Jul 2020 19:57:50 +0000</lastBuildDate>
+    
+	<atom:link href="https://sall.w-ss.io/public/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://sall.w-ss.io/public/about/about/</link>
+      <pubDate>Sat, 25 Jul 2020 19:57:50 +0000</pubDate>
+      
+      <guid>https://sall.w-ss.io/public/about/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
