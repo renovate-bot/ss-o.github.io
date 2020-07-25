@@ -6,14 +6,10 @@ aliases = ["about-us","about-hugo","contact"]
   name = "Hugo Authors"
 +++
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
 
-It makes use of a variety of open source projects including:
+### Salvydas Lukosius
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+- [Stackoverflow](https://stackoverflow.com/users/13893752/salvydas-lukosius)
+- [Linkedin](https://www.linkedin.com/public-profile/in/digital-clouds)
+- [GitLab](https://gitlab.com/sall-lab)
+- [GitHub](https://github.com/ss-o)
