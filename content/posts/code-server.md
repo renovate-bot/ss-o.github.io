@@ -1,11 +1,12 @@
 ---
 title: "Code Server"
 date: 2020-07-26T18:24:36+01:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
-  - untagged
+  - remote
+  - code-server
 ---
 
 ### Setup code-server

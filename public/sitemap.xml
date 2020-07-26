@@ -8,7 +8,17 @@
   </url>
   
   <url>
+    <loc>https://sall.w-ss.io/public/tags/code-server/</loc>
+    <lastmod>2020-07-26T18:24:36+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sall.w-ss.io/public/posts/</loc>
+    <lastmod>2020-07-26T18:24:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/public/tags/remote/</loc>
     <lastmod>2020-07-26T18:24:36+01:00</lastmod>
   </url>
   
@@ -19,11 +29,6 @@
   
   <url>
     <loc>https://sall.w-ss.io/public/tags/</loc>
-    <lastmod>2020-07-26T18:24:36+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/public/tags/untagged/</loc>
     <lastmod>2020-07-26T18:24:36+01:00</lastmod>
   </url>
   

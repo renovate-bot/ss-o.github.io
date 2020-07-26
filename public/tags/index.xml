@@ -13,11 +13,20 @@
     
     
     <item>
-      <title>untagged</title>
-      <link>https://sall.w-ss.io/public/tags/untagged/</link>
+      <title>code-server</title>
+      <link>https://sall.w-ss.io/public/tags/code-server/</link>
       <pubDate>Sun, 26 Jul 2020 18:24:36 +0100</pubDate>
       
-      <guid>https://sall.w-ss.io/public/tags/untagged/</guid>
+      <guid>https://sall.w-ss.io/public/tags/code-server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>remote</title>
+      <link>https://sall.w-ss.io/public/tags/remote/</link>
+      <pubDate>Sun, 26 Jul 2020 18:24:36 +0100</pubDate>
+      
+      <guid>https://sall.w-ss.io/public/tags/remote/</guid>
       <description></description>
     </item>
     

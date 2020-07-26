@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>code-server on Salvydas Lukosius</title>
+    <link>https://sall.w-ss.io/public/tags/code-server/</link>
+    <description>Recent content in code-server on Salvydas Lukosius</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Digital Clouds | WiseHub MG LTD</copyright>
+    <lastBuildDate>Sun, 26 Jul 2020 18:24:36 +0100</lastBuildDate>
+    
+	<atom:link href="https://sall.w-ss.io/public/tags/code-server/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Code Server</title>
+      <link>https://sall.w-ss.io/public/posts/2020/07/code-server/</link>
+      <pubDate>Sun, 26 Jul 2020 18:24:36 +0100</pubDate>
+      
+      <guid>https://sall.w-ss.io/public/posts/2020/07/code-server/</guid>
+      <description>Setup code-server  This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.
+  Github code-server  $ mkdir ~/code-server &amp;amp;&amp;amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
+ $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz  Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:</description>
+    </item>
+    
+  </channel>
+</rss>
