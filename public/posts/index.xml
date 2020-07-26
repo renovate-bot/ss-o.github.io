@@ -10,15 +10,16 @@
         <atom:link href="https://sall.w-ss.io/public/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>Code Server</title>
+            <title>Code-Server</title>
             <link>https://sall.w-ss.io/public/posts/2020/07/code-server/</link>
             <pubDate>Sun, 26 Jul 2020 18:24:36 +0100</pubDate>
             
             <guid>https://sall.w-ss.io/public/posts/2020/07/code-server/</guid>
-            <description>Setup code-server  This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.
+            <description>Setup code-server for remote access  This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.
   Github code-server  $ mkdir ~/code-server &amp;amp;&amp;amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
- $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz  Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:</description>
-            <content type="html"><![CDATA[<h3 id="setup-code-server">Setup code-server</h3>
+ $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz $ tar -xzvf code-server-3.2.0-linux-x86_64.tar.gz  Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:</description>
+            <content type="html"><![CDATA[<h3 id="setup-code-server-for-remote-access">Setup code-server for remote access</h3>
+<p><img src="https://github.com/cdr/code-server/blob/master/doc/assets/screenshot.png" alt="screenshot"></p>
 <blockquote>
 <p>This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.</p>
 </blockquote>
@@ -30,6 +31,7 @@
 <p>From official <a href="https://github.com/cdr/code-server/releases">github releases</a> page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).</p>
 </blockquote>
 <pre><code>$ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz
+$ tar -xzvf code-server-3.2.0-linux-x86_64.tar.gz
 </code></pre><blockquote>
 <p>Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:</p>
 </blockquote>

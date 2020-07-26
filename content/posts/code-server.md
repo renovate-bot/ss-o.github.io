@@ -1,5 +1,5 @@
 ---
-title: "Code Server"
+title: "Code-Server"
 date: 2020-07-26T18:24:36+01:00
 draft: false
 toc: false
@@ -9,7 +9,11 @@ tags:
   - code-server
 ---
 
-### Setup code-server
+### Setup code-server for remote access
+
+![screenshot](https://github.com/cdr/code-server/blob/master/doc/assets/screenshot.png)
+
+
 
 > This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background. 
 
@@ -25,6 +29,7 @@ $ mkdir ~/code-server && cd ~/code-server
 
 ```
 $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz
+$ tar -xzvf code-server-3.2.0-linux-x86_64.tar.gz
 ```
 
 > Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:
