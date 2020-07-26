@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/wizz/projects/ss-o.github.io",
+	"sourceRoot": "/home/khadas/workspace/ss-o.github.io",
 	"sources": [
 		"themes/hello/assets/scss/main.scss",
 		"themes/hello/assets/scss/_normalize.scss",
