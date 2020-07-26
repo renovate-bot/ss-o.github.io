@@ -11,9 +11,7 @@ tags:
 
 ### Setup code-server for remote access
 
-![screenshot](https://github.com/cdr/code-server/blob/master/doc/assets/screenshot.png)
-
-
+![screenshot](img/screenshot.png)
 
 > This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background. 
 

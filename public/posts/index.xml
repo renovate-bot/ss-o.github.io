@@ -19,7 +19,7 @@
   Github code-server  $ mkdir ~/code-server &amp;amp;&amp;amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
  $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz $ tar -xzvf code-server-3.2.0-linux-x86_64.tar.gz  Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:</description>
             <content type="html"><![CDATA[<h3 id="setup-code-server-for-remote-access">Setup code-server for remote access</h3>
-<p><img src="https://github.com/cdr/code-server/blob/master/doc/assets/screenshot.png" alt="screenshot"></p>
+<p><img src="img/screenshot.png" alt="screenshot"></p>
 <blockquote>
 <p>This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.</p>
 </blockquote>
