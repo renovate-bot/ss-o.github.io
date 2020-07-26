@@ -6,17 +6,120 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>Digital Clouds | WiseHub MG LTD</copyright>
-        <lastBuildDate>Mon, 20 Jul 2020 14:54:10 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 26 Jul 2020 18:24:36 +0100</lastBuildDate>
         <atom:link href="https://sall.w-ss.io/public/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>Main</title>
-            <link>https://sall.w-ss.io/public/posts/2020/07/main/</link>
-            <pubDate>Mon, 20 Jul 2020 14:54:10 +0000</pubDate>
+            <title>Code Server</title>
+            <link>https://sall.w-ss.io/public/posts/2020/07/code-server/</link>
+            <pubDate>Sun, 26 Jul 2020 18:24:36 +0100</pubDate>
             
-            <guid>https://sall.w-ss.io/public/posts/2020/07/main/</guid>
-            <description></description>
-            <content type="html"><![CDATA[]]></content>
+            <guid>https://sall.w-ss.io/public/posts/2020/07/code-server/</guid>
+            <description>Setup code-server  This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.
+  Github code-server  $ mkdir ~/code-server &amp;amp;&amp;amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
+ $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz  Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:</description>
+            <content type="html"><![CDATA[<h3 id="setup-code-server">Setup code-server</h3>
+<blockquote>
+<p>This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.</p>
+</blockquote>
+<ul>
+<li>Github <a href="https://github.com/ss-o/code-server">code-server</a></li>
+</ul>
+<pre><code>$ mkdir ~/code-server &amp;&amp; cd ~/code-server
+</code></pre><blockquote>
+<p>From official <a href="https://github.com/cdr/code-server/releases">github releases</a> page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).</p>
+</blockquote>
+<pre><code>$ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz
+</code></pre><blockquote>
+<p>Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:</p>
+</blockquote>
+<pre><code>$ sudo cp -r code-server-3.2.0-linux-x86_64 /usr/lib/code-server
+</code></pre><blockquote>
+<p>Then, create a symbolic link at /usr/bin/code-server, pointing to the code-server executable:</p>
+</blockquote>
+<pre><code>$ sudo ln -s /usr/lib/code-server/code-server /usr/bin/code-server
+</code></pre><blockquote>
+<p>Next, create a folder for code-server, where it will store user data:</p>
+</blockquote>
+<pre><code>$ sudo mkdir /var/lib/code-server
+</code></pre><blockquote>
+<p>Create <code>code-server.service</code> to run in background with the following commands:</p>
+</blockquote>
+<pre><code>$ sudo nano /lib/systemd/system/code-server.service
+</code></pre><blockquote>
+<p>Add the following lines:</p>
+</blockquote>
+<pre><code>[Unit]
+Description=code-server
+After=nginx.service
+
+[Service]
+User=your_user
+Type=simple
+Environment=PASSWORD=your_password
+ExecStart=/usr/bin/code-server --bind-addr 127.0.0.1:8080 --user-data-dir /var/lib/code-server --auth password
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+</code></pre><blockquote>
+<p>Start the code-server service by running the following command:</p>
+</blockquote>
+<pre><code>$ sudo systemctl start code-server
+</code></pre><blockquote>
+<p>Check that it’s started correctly by observing its status:</p>
+</blockquote>
+<pre><code>$ sudo systemctl status code-server
+</code></pre><blockquote>
+<p>To make code-server start automatically after a server reboot, enable its service by running the following command:</p>
+</blockquote>
+<pre><code>$ sudo systemctl enable code-server
+</code></pre><blockquote>
+<p>Make sure nginx installed. As you have learned in the Nginx prerequisite step, its site configuration files are stored under /etc/nginx/sites-available and must later be symlinked to /etc/nginx/sites-enabled to become active.</p>
+</blockquote>
+<blockquote>
+<p>You’ll store the configuration for exposing code-server at your domain in a file named code-server.conf, under /etc/nginx/sites-available. Start off by creating it using your editor:</p>
+</blockquote>
+<pre><code>$ sudo nano /etc/nginx/sites-available/code-server.conf
+</code></pre><blockquote>
+<p>Add following:</p>
+</blockquote>
+<pre><code>server {
+    listen 80;
+    listen [::]:80;
+
+    server_name code-server.your-domain;
+
+    location / {
+      proxy_pass http://localhost:8080/;
+      proxy_set_header Upgrade $http_upgrade;
+      proxy_set_header Connection upgrade;
+      proxy_set_header Accept-Encoding gzip;
+    }
+}
+</code></pre><blockquote>
+<p>To make this site configuration active, you will need to create a symlink of it in the /etc/nginx/sites-enabled folder by running:</p>
+</blockquote>
+<pre><code>$ sudo ln -s /etc/nginx/sites-available/code-server.conf /etc/nginx/sites-enabled/code-server.conf
+</code></pre><blockquote>
+<p>To test the validity of the configuration, run the following command:</p>
+</blockquote>
+<pre><code>$ sudo nginx -t
+</code></pre><blockquote>
+<p>For the configuration to take effect, you’ll need to restart Nginx:</p>
+</blockquote>
+<pre><code>$ sudo systemctl restart nginx
+</code></pre><blockquote>
+<p>Setup certificate with cerbot:</p>
+</blockquote>
+<pre><code>$ sudo apt install python3-certbot-nginx
+$ sudo ufw allow https
+$ sudo ufw reload
+</code></pre><blockquote>
+<p>And finally:</p>
+</blockquote>
+<pre><code>$ sudo certbot --nginx -d code-server.your-domain
+</code></pre>]]></content>
         </item>
         
     </channel>

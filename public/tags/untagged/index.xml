@@ -7,18 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Digital Clouds | WiseHub MG LTD</copyright>
-    <lastBuildDate>Mon, 20 Jul 2020 14:54:10 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2020 18:24:36 +0100</lastBuildDate>
     
 	<atom:link href="https://sall.w-ss.io/public/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Main</title>
-      <link>https://sall.w-ss.io/public/posts/2020/07/main/</link>
-      <pubDate>Mon, 20 Jul 2020 14:54:10 +0000</pubDate>
+      <title>Code Server</title>
+      <link>https://sall.w-ss.io/public/posts/2020/07/code-server/</link>
+      <pubDate>Sun, 26 Jul 2020 18:24:36 +0100</pubDate>
       
-      <guid>https://sall.w-ss.io/public/posts/2020/07/main/</guid>
-      <description></description>
+      <guid>https://sall.w-ss.io/public/posts/2020/07/code-server/</guid>
+      <description>Setup code-server  This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.
+  Github code-server  $ mkdir ~/code-server &amp;amp;&amp;amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
+ $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz  Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:</description>
     </item>
     
   </channel>
