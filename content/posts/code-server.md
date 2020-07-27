@@ -4,19 +4,19 @@ date: 2020-07-26T18:24:36+01:00
 draft: false
 toc: false
 images: 
-  - img/screenshot.png
 tags:
   - remote
   - code-server
 ---
 
 ### Setup code-server for remote access
+**Linux Ubuntu 18.04/20.04** tested
 
 ![screenshot](https://sall.w-ss.io/public/img/screenshot.png)
 
 > This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background. 
 
-- Github [code-server](https://github.com/ss-o/code-server)
+- Github [code-server](https://github.com/ss-o/code-server) - all releases.
   
 
 ```bash

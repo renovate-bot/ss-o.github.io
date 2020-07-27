@@ -5,9 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="Salvydas Lukosius ">
-<meta name="description" content="Setup code-server for remote access  This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.
-  Github code-server  $ mkdir ~/code-server &amp;amp;&amp;amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
- $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz $ tar -xzvf code-server-3.2.0-linux-x86_64.tar.gz  Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:" />
+<meta name="description" content="Setup code-server for remote access Linux Ubuntu 18.04/20.04 tested
+ This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.
+  Github code-server - all releases.  $ mkdir ~/code-server &amp;amp;&amp;amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
+ $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz $ tar -xzvf code-server-3." />
 <meta name="keywords" content="Salvydas, Lukosius, Digital, Clouds, Blog, remote, code-server" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="#252627" />
@@ -44,34 +45,37 @@
 
 
 <meta itemprop="name" content="Code-Server">
-<meta itemprop="description" content="Setup code-server for remote access  This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.
-  Github code-server  $ mkdir ~/code-server &amp;&amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
- $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz $ tar -xzvf code-server-3.2.0-linux-x86_64.tar.gz  Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:">
+<meta itemprop="description" content="Setup code-server for remote access Linux Ubuntu 18.04/20.04 tested
+ This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.
+  Github code-server - all releases.  $ mkdir ~/code-server &amp;&amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
+ $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz $ tar -xzvf code-server-3.">
 <meta itemprop="datePublished" content="2020-07-26T18:24:36&#43;01:00" />
 <meta itemprop="dateModified" content="2020-07-26T18:24:36&#43;01:00" />
-<meta itemprop="wordCount" content="366">
-<meta itemprop="image" content="https://sall.w-ss.io/public/img/screenshot.png">
+<meta itemprop="wordCount" content="373">
+<meta itemprop="image" content="https://sall.w-ss.io/img"/>
 
 
 
 <meta itemprop="keywords" content="remote,code-server," />
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://sall.w-ss.io/public/img/screenshot.png"/>
+<meta name="twitter:image" content="https://sall.w-ss.io/img"/>
 
 <meta name="twitter:title" content="Code-Server"/>
-<meta name="twitter:description" content="Setup code-server for remote access  This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.
-  Github code-server  $ mkdir ~/code-server &amp;&amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
- $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz $ tar -xzvf code-server-3.2.0-linux-x86_64.tar.gz  Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:"/>
+<meta name="twitter:description" content="Setup code-server for remote access Linux Ubuntu 18.04/20.04 tested
+ This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.
+  Github code-server - all releases.  $ mkdir ~/code-server &amp;&amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
+ $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz $ tar -xzvf code-server-3."/>
 
 
 
     <meta property="og:title" content="Code-Server" />
-<meta property="og:description" content="Setup code-server for remote access  This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.
-  Github code-server  $ mkdir ~/code-server &amp;&amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
- $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz $ tar -xzvf code-server-3.2.0-linux-x86_64.tar.gz  Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:" />
+<meta property="og:description" content="Setup code-server for remote access Linux Ubuntu 18.04/20.04 tested
+ This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.
+  Github code-server - all releases.  $ mkdir ~/code-server &amp;&amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
+ $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz $ tar -xzvf code-server-3." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://sall.w-ss.io/public/posts/2020/07/code-server/" />
-<meta property="og:image" content="https://sall.w-ss.io/public/img/screenshot.png" />
+<meta property="og:image" content="https://sall.w-ss.io/img"/>
 <meta property="article:published_time" content="2020-07-26T18:24:36+01:00" />
 <meta property="article:modified_time" content="2020-07-26T18:24:36+01:00" />
 
@@ -161,12 +165,13 @@
 
       <div class="post-content">
         <h3 id="setup-code-server-for-remote-access">Setup code-server for remote access</h3>
+<p><strong>Linux Ubuntu 18.04/20.04</strong> tested</p>
 <p><img src="https://sall.w-ss.io/public/img/screenshot.png" alt="screenshot"></p>
 <blockquote>
 <p>This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.</p>
 </blockquote>
 <ul>
-<li>Github <a href="https://github.com/ss-o/code-server">code-server</a></li>
+<li>Github <a href="https://github.com/ss-o/code-server">code-server</a> - all releases.</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ mkdir ~/code-server <span style="color:#f92672">&amp;&amp;</span> cd ~/code-server
 </code></pre></div><blockquote>
@@ -287,7 +292,7 @@ $ sudo ufw reload
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        366 Words
+        373 Words
       </p>
 
       <p>

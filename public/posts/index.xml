@@ -15,16 +15,18 @@
             <pubDate>Sun, 26 Jul 2020 18:24:36 +0100</pubDate>
             
             <guid>https://sall.w-ss.io/public/posts/2020/07/code-server/</guid>
-            <description>Setup code-server for remote access  This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.
-  Github code-server  $ mkdir ~/code-server &amp;amp;&amp;amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
- $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz $ tar -xzvf code-server-3.2.0-linux-x86_64.tar.gz  Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:</description>
+            <description>Setup code-server for remote access Linux Ubuntu 18.04/20.04 tested
+ This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.
+  Github code-server - all releases.  $ mkdir ~/code-server &amp;amp;&amp;amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
+ $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz $ tar -xzvf code-server-3.</description>
             <content type="html"><![CDATA[<h3 id="setup-code-server-for-remote-access">Setup code-server for remote access</h3>
+<p><strong>Linux Ubuntu 18.04/20.04</strong> tested</p>
 <p><img src="https://sall.w-ss.io/public/img/screenshot.png" alt="screenshot"></p>
 <blockquote>
 <p>This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.</p>
 </blockquote>
 <ul>
-<li>Github <a href="https://github.com/ss-o/code-server">code-server</a></li>
+<li>Github <a href="https://github.com/ss-o/code-server">code-server</a> - all releases.</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ mkdir ~/code-server <span style="color:#f92672">&amp;&amp;</span> cd ~/code-server
 </code></pre></div><blockquote>
