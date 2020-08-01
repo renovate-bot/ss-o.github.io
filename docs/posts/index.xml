@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Salvydas Lukosius</title>
-        <link>https://sall.w-ss.io/docs/posts/</link>
+        <link>https://sall.w-ss.io/posts/</link>
         <description>Recent content in Posts on Salvydas Lukosius</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>Digital Clouds | WiseHub MG LTD</copyright>
         <lastBuildDate>Sun, 26 Jul 2020 18:24:36 +0100</lastBuildDate>
-        <atom:link href="https://sall.w-ss.io/docs/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://sall.w-ss.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>Code-Server</title>
-            <link>https://sall.w-ss.io/docs/posts/2020/07/code-server/</link>
+            <link>https://sall.w-ss.io/posts/2020/07/code-server/</link>
             <pubDate>Sun, 26 Jul 2020 18:24:36 +0100</pubDate>
             
-            <guid>https://sall.w-ss.io/docs/posts/2020/07/code-server/</guid>
+            <guid>https://sall.w-ss.io/posts/2020/07/code-server/</guid>
             <description>Setup code-server for remote access Linux Ubuntu 18.04/20.04 tested
  This entails downloading the latest version and creating a systemd service that will keep code-server always running in the background.
   Github code-server - all releases.  $ mkdir ~/code-server &amp;amp;&amp;amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
