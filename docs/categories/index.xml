@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Salvydas Lukosius</title>
-    <link>https://sall.w-ss.io/public/categories/</link>
+    <link>https://sall.w-ss.io/docs/categories/</link>
     <description>Recent content in Categories on Salvydas Lukosius</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Digital Clouds | WiseHub MG LTD</copyright>
     
-	<atom:link href="https://sall.w-ss.io/public/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sall.w-ss.io/docs/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
