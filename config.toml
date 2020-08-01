@@ -1,4 +1,4 @@
-baseURL = "https://sall.w-ss.io/docs/"
+baseURL = "https://sall.w-ss.io/"
 title   = "Salvydas Lukosius"
 languageCode = "en-us"
 theme = "hello"
