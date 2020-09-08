@@ -12,7 +12,7 @@ tags:
 ### Setup code-server for remote access
 **Linux Ubuntu 18.04/20.04** tested
 
-![screenshot](https://sall.w-ss.io/docs/img/screenshot.png)
+![screenshot](https://github.com/ss-o/ss-o.github.io/raw/master/docs/img/screenshot.png)
   
 
 ```bash
