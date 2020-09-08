@@ -21,7 +21,7 @@ $ mkdir ~/code-server &amp;amp;&amp;amp; cd ~/code-server  From official github 
 $ sudo cp -r code-server-3.2.0-linux-x86_64 /usr/lib/code-server Then, create a symbolic link at /usr/bin/code-server, pointing to the code-server executable:</description>
             <content type="html"><![CDATA[<h3 id="setup-code-server-for-remote-access">Setup code-server for remote access</h3>
 <p><strong>Linux Ubuntu 18.04/20.04</strong> tested</p>
-<p><img src="https://sall.w-ss.io/public/img/screenshot.png" alt="screenshot"></p>
+<p><img src="https://sall.w-ss.io/docs/img/screenshot.png" alt="screenshot"></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ mkdir ~/code-server <span style="color:#f92672">&amp;&amp;</span> cd ~/code-server
 </code></pre></div><blockquote>
 <p>From official <a href="https://github.com/cdr/code-server/releases">github releases</a> page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).</p>
