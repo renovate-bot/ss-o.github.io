@@ -3,17 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sall.w-ss.io/tags/develop/</loc>
+    <lastmod>2020-09-13T23:36:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/tags/git/</loc>
+    <lastmod>2020-09-13T23:36:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/posts/2020/09/git-remote-repository/</loc>
+    <lastmod>2020-09-13T23:36:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/posts/</loc>
+    <lastmod>2020-09-13T23:36:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/tags/repositories/</loc>
+    <lastmod>2020-09-13T23:36:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/</loc>
+    <lastmod>2020-09-13T23:36:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/tags/</loc>
+    <lastmod>2020-09-13T23:36:52+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sall.w-ss.io/linux/dev/</loc>
     <lastmod>2020-08-07T12:49:14+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://sall.w-ss.io/linux/</loc>
-    <lastmod>2020-08-07T12:49:14+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/</loc>
     <lastmod>2020-08-07T12:49:14+00:00</lastmod>
   </url>
   
@@ -28,17 +58,7 @@
   </url>
   
   <url>
-    <loc>https://sall.w-ss.io/posts/</loc>
-    <lastmod>2020-07-26T18:24:36+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sall.w-ss.io/tags/remote/</loc>
-    <lastmod>2020-07-26T18:24:36+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/tags/</loc>
     <lastmod>2020-07-26T18:24:36+01:00</lastmod>
   </url>
   

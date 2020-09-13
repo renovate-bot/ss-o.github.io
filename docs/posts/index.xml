@@ -6,8 +6,39 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>Digital Clouds | WiseHub MG LTD</copyright>
-        <lastBuildDate>Sun, 26 Jul 2020 18:24:36 +0100</lastBuildDate>
+        <lastBuildDate>Sun, 13 Sep 2020 23:36:52 +0100</lastBuildDate>
         <atom:link href="https://sall.w-ss.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Git Remote Repository</title>
+            <link>https://sall.w-ss.io/posts/2020/09/git-remote-repository/</link>
+            <pubDate>Sun, 13 Sep 2020 23:36:52 +0100</pubDate>
+            
+            <guid>https://sall.w-ss.io/posts/2020/09/git-remote-repository/</guid>
+            <description>Setup Git Repository How to install git on your system: https://git-scm.com/downloads, Documentation
+ You can store your repositories: github.com, gitlab.com, bitbucket.org and etc.
+  Create a new repository on the command line:
+echo “# ss-o” &amp;gt;&amp;gt; README.md git init git add README.md git commit -m “first commit” git branch -M master git remote add origin git@github.com:your-repo/your-repo-name.git git push -u origin master Push an existing repository from the command line:</description>
+            <content type="html"><![CDATA[<h3 id="setup-git-repository">Setup Git Repository</h3>
+<p><img src="https://github.com/ss-o/ss-o.github.io/raw/master/static/img/git-logo.png" alt="git logo"></p>
+<p>How to install git on your system: <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a>, <a href="https://git-scm.com/doc">Documentation</a></p>
+<blockquote>
+<p>You can store your repositories: <a href="https://github.com">github.com</a>, <a href="https://gitlab.com">gitlab.com</a>, <a href="https://bitbucket.org">bitbucket.org</a> and etc.</p>
+</blockquote>
+<hr>
+<p>Create a new repository on the command line:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo “# ss-o” &gt;&gt; README.md 
+git init git add README.md 
+git commit -m “first commit” 
+git branch -M master git remote add origin git@github.com:your-repo/your-repo-name.git
+git push -u origin master 
+</code></pre></div><p>Push an existing repository from the command line:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git remote add origin git@github.com:your-repo/your-repo-name.git 
+git branch -M master 
+git push -u origin maste
+</code></pre></div><p>Your repository available to view on site you chose.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Code-Server</title>

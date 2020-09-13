@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>repositories on Salvydas Lukosius</title>
+    <link>https://sall.w-ss.io/tags/repositories/</link>
+    <description>Recent content in repositories on Salvydas Lukosius</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Digital Clouds | WiseHub MG LTD</copyright>
+    <lastBuildDate>Sun, 13 Sep 2020 23:36:52 +0100</lastBuildDate><atom:link href="https://sall.w-ss.io/tags/repositories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Remote Repository</title>
+      <link>https://sall.w-ss.io/posts/2020/09/git-remote-repository/</link>
+      <pubDate>Sun, 13 Sep 2020 23:36:52 +0100</pubDate>
+      
+      <guid>https://sall.w-ss.io/posts/2020/09/git-remote-repository/</guid>
+      <description>Setup Git Repository How to install git on your system: https://git-scm.com/downloads, Documentation
+ You can store your repositories: github.com, gitlab.com, bitbucket.org and etc.
+  Create a new repository on the command line:
+echo “# ss-o” &amp;gt;&amp;gt; README.md git init git add README.md git commit -m “first commit” git branch -M master git remote add origin git@github.com:your-repo/your-repo-name.git git push -u origin master Push an existing repository from the command line:</description>
+    </item>
+    
+  </channel>
+</rss>
