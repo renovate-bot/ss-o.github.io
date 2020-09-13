@@ -11,7 +11,7 @@ tags:
 ---
 
 ### Setup Git Repository 
-![git logo](https://github.com/ss-o/ss-o.github.io/raw/master/static/img/git-logo.png)
+![git logo](https://github.com/ss-o/ss-o.github.io/raw/master/static/img/git-goodness.gif)
 
 How to install git on your system: [https://git-scm.com/downloads](https://git-scm.com/downloads), [Documentation](https://git-scm.com/doc)
 
