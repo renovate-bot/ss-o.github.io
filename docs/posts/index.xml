@@ -18,7 +18,7 @@
             <description>Setup Git Repository How to install git on your system: https://git-scm.com/downloads, Documentation
  You can store your repositories: github.com, gitlab.com, bitbucket.org and etc.
   Create a new repository on the command line:
-echo “# ss-o” &amp;gt;&amp;gt; README.md git init git add README.md git commit -m “first commit” git branch -M master git remote add origin git@github.com:your-repo/your-repo-name.git git push -u origin master Push an existing repository from the command line:</description>
+echo “# Git Repository” &amp;gt;&amp;gt; README.md git init git add README.md git commit -m “first commit git branch -M master git remote add origin git@github.com:your-repo/your-repo-name.git git push -u origin master Push an existing repository from the command line:</description>
             <content type="html"><![CDATA[<h3 id="setup-git-repository">Setup Git Repository</h3>
 <p><img src="https://github.com/ss-o/ss-o.github.io/raw/master/static/img/git-goodness.gif" alt="git logo"></p>
 <p>How to install git on your system: <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a>, <a href="https://git-scm.com/doc">Documentation</a></p>
@@ -27,10 +27,11 @@ echo “# ss-o” &amp;gt;&amp;gt; README.md git init git add README.md git comm
 </blockquote>
 <hr>
 <p>Create a new repository on the command line:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo “# ss-o” &gt;&gt; README.md 
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo “# Git Repository” &gt;&gt; README.md 
 git init git add README.md 
-git commit -m “first commit” 
-git branch -M master git remote add origin git@github.com:your-repo/your-repo-name.git
+git commit -m “first commit 
+git branch -M master 
+git remote add origin git@github.com:your-repo/your-repo-name.git
 git push -u origin master 
 </code></pre></div><p>Push an existing repository from the command line:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git remote add origin git@github.com:your-repo/your-repo-name.git 

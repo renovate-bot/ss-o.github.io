@@ -22,10 +22,11 @@ How to install git on your system: [https://git-scm.com/downloads](https://git-s
 Create a new repository on the command line:
 
 ```bash
-echo “# ss-o” >> README.md 
+echo “# Git Repository” >> README.md 
 git init git add README.md 
-git commit -m “first commit” 
-git branch -M master git remote add origin git@github.com:your-repo/your-repo-name.git
+git commit -m “first commit 
+git branch -M master 
+git remote add origin git@github.com:your-repo/your-repo-name.git
 git push -u origin master 
 ```
 
