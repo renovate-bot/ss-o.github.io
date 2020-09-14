@@ -17,7 +17,7 @@
       <description>How to install git on your system: https://git-scm.com/downloads, Documentation.
  You can store your repositories: github.com, gitlab.com, bitbucket.org and etc.
   Create a new repository on the command line:
-echo “# Git Repository” &amp;gt;&amp;gt; README.md git init git add README.md git commit -m “first commit&amp;quot; git branch -M master git remote add origin git@github.com:your-repo/your-repo-name.git git push -u origin master Push an existing repository from the command line:
+echo “# Git Repository” &amp;gt;&amp;gt; README.md git init git add README.md git commit -m “first commit&amp;#34; git branch -M master git remote add origin git@github.com:your-repo/your-repo-name.git git push -u origin master Push an existing repository from the command line:
 git remote add origin git@github.</description>
     </item>
     
