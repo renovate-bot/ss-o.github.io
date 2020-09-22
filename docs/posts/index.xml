@@ -38,7 +38,7 @@ git commit -m “first commit<span style="color:#e6db74">&#34;
 </span></code></pre></div><p>Push an existing repository from the command line:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git remote add origin git@github.com:your-repo/your-repo-name.git 
 git branch -M master 
-git push -u origin maste
+git push -u origin master
 </code></pre></div><p>Your repository available to view on site you chose.</p>
 ]]></content>
         </item>
