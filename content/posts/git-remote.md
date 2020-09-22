@@ -36,7 +36,7 @@ Push an existing repository from the command line:
 ```bash 
 git remote add origin git@github.com:your-repo/your-repo-name.git 
 git branch -M master 
-git push -u origin maste
+git push -u origin master
 ```
 
 Your repository available to view on site you chose.
