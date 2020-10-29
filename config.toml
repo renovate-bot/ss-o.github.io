@@ -152,11 +152,6 @@ disableHugoGeneratorInject = false
     url        = "pages/"
     weight = "1"
     
-    [[menu.main]]
-    identifier = "pages"
-    name       = "My Dotfiles"
-    url        = "https://github.com/ss-o/dotfiles/README.md"
-#    weight = ""
 
   [[menu.main]]
     identifier = "posts"
