@@ -148,27 +148,30 @@ disableHugoGeneratorInject = false
     name = "Projects"
     url = "projects/"
     weight = "1"
+    
+#[[menu.main]]
+#    parent = "projects"
+#    name = "Projects List"
+#    url = "projects/"
+#    weight = "10"
 
 #[[menu.main]]
-#    parent = "content"
-#    name = ""
-#    url = "https://sall.w-ss.io/dotfiles"
-#    weight = 2
-
-[[menu.main]]
-    identifier = "docs"
-    name = "Docs"
-    url = "docs/"
-    weight = "2"
+#    parent = "projects"
+#    name = "Dotfiles Setup"
+#    url = "https://github.com/ss-o/dotfiles/"
+#    weight = "20"
 
 [[menu.main]]
     name = "Tags"
     url = "tags"
-    weight = "3"
+    weight = "2"
 
 #  [[menu.main]]
 #    identifier = "about"
 #    name       = "About"
 #    url        = "about/"
-
-
+#  [[menu.main]]
+#    identifier = "docs"
+#    name = "Docs"
+#    url = "docs/"
+#    weight = "2"

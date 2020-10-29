@@ -6,8 +6,6 @@ toc: false
 images:
 tags:
   - git
-  - repositories
-  - develop
 ---
 
 ---
