@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+setup_shells() {
+  if ! _exists zsh; then
+    return
+  fi
+set_zsh
+}
+
+function set_zsh () {
+# Change default shell to zsh
+# ----------------------------------------------------------------------
+log_header " >> Change default shell to zsh?\n"
+log_subhead "(Requires password)\n"
+    if confirm; then
+    chsh -s $(which zsh)
+    log_success "Default shell set to ZSH\n"
+    sleep 1
+    log_ok "Done!\n"
+    sleep 1
+    else
+    log_info "Skipped.\n"
+    sleep 1
+    fi
+}

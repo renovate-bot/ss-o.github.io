@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Digital Clouds | WiseHub MG LTD</copyright>
-    <lastBuildDate>Sun, 13 Sep 2020 23:36:52 +0100</lastBuildDate><atom:link href="https://sall.w-ss.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Oct 2020 22:49:29 +0000</lastBuildDate><atom:link href="https://sall.w-ss.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>develop</title>
-      <link>https://sall.w-ss.io/tags/develop/</link>
-      <pubDate>Sun, 13 Sep 2020 23:36:52 +0100</pubDate>
+      <title>dotfiles</title>
+      <link>https://sall.w-ss.io/tags/dotfiles/</link>
+      <pubDate>Thu, 29 Oct 2020 22:49:29 +0000</pubDate>
       
-      <guid>https://sall.w-ss.io/tags/develop/</guid>
+      <guid>https://sall.w-ss.io/tags/dotfiles/</guid>
       <description></description>
     </item>
     
@@ -27,29 +27,11 @@
     </item>
     
     <item>
-      <title>repositories</title>
-      <link>https://sall.w-ss.io/tags/repositories/</link>
-      <pubDate>Sun, 13 Sep 2020 23:36:52 +0100</pubDate>
-      
-      <guid>https://sall.w-ss.io/tags/repositories/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>code-server</title>
       <link>https://sall.w-ss.io/tags/code-server/</link>
       <pubDate>Sun, 26 Jul 2020 18:24:36 +0100</pubDate>
       
       <guid>https://sall.w-ss.io/tags/code-server/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>remote</title>
-      <link>https://sall.w-ss.io/tags/remote/</link>
-      <pubDate>Sun, 26 Jul 2020 18:24:36 +0100</pubDate>
-      
-      <guid>https://sall.w-ss.io/tags/remote/</guid>
       <description></description>
     </item>
     

@@ -151,14 +151,8 @@ disableHugoGeneratorInject = false
     
 #[[menu.main]]
 #    parent = "projects"
-#    name = "Projects List"
-#    url = "projects/"
-#    weight = "10"
-
-#[[menu.main]]
-#    parent = "projects"
 #    name = "Dotfiles Setup"
-#    url = "https://github.com/ss-o/dotfiles/"
+#    url = "projects/dotfiles/"
 #    weight = "20"
 
 [[menu.main]]

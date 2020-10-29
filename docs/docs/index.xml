@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Salvydas Lukosius</title>
-    <link>https://sall.w-ss.io/</link>
-    <description>Recent content on Salvydas Lukosius</description>
+    <title>Docs on Salvydas Lukosius</title>
+    <link>https://sall.w-ss.io/docs/</link>
+    <description>Recent content in Docs on Salvydas Lukosius</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Digital Clouds | WiseHub MG LTD</copyright>
-    <lastBuildDate>Thu, 29 Oct 2020 22:49:29 +0000</lastBuildDate><atom:link href="https://sall.w-ss.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Personal dotfiles</title>
-      <link>https://sall.w-ss.io/projects/dotfiles/readme/</link>
-      <pubDate>Thu, 29 Oct 2020 22:49:29 +0000</pubDate>
-      
-      <guid>https://sall.w-ss.io/projects/dotfiles/readme/</guid>
-      <description>Table of Contents  Table of Contents About The Project  Prerequisites Installation Files Tree   Issues Contributing Contact  About The Project Prerequisites This is list of prerequisites to setup dotfiles
- git rsync  Installation  Clone the repository  git clone https://github.com/ss-o/dotfiles.git .dotfiles Enter directory and execute setup.sh  cd .dotfiles &amp;amp;&amp;amp; ./setup.sh Files Tree . ├── Dockerfile ├── git │ ├── gitconfig │ ├── gitconfig.</description>
-    </item>
-    
+    <lastBuildDate>Sun, 13 Sep 2020 23:36:52 +0100</lastBuildDate><atom:link href="https://sall.w-ss.io/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Remote Repository</title>
       <link>https://sall.w-ss.io/docs/git-remote/</link>
@@ -41,21 +31,6 @@ git remote add origin git@github.</description>
 $ mkdir ~/code-server &amp;amp;&amp;amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
  $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz $ tar -xzvf code-server-3.2.0-linux-x86_64.tar.gz Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:
 $ sudo cp -r code-server-3.2.0-linux-x86_64 /usr/lib/code-server Then, create a symbolic link at /usr/bin/code-server, pointing to the code-server executable:</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://sall.w-ss.io/about/</link>
-      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://sall.w-ss.io/about/</guid>
-      <description>Salvydas Lukosius  &amp;ldquo;Every man must decide whether he will walk in light of creative altruism or in darkness of destructive selfishness.&amp;rdquo;
-   Martin Luther King Jr.
-  Stackoverflow
-  Linkedin
-  GitLab
-  GitHub
-  </description>
     </item>
     
   </channel>
