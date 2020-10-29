@@ -22,15 +22,6 @@ git remote add origin git@github.</description>
     </item>
     
     <item>
-      <title>Dev</title>
-      <link>https://sall.w-ss.io/linux/dev/</link>
-      <pubDate>Fri, 07 Aug 2020 12:49:14 +0000</pubDate>
-      
-      <guid>https://sall.w-ss.io/linux/dev/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Code-Server</title>
       <link>https://sall.w-ss.io/posts/2020/07/code-server/</link>
       <pubDate>Sun, 26 Jul 2020 18:24:36 +0100</pubDate>
@@ -40,15 +31,6 @@ git remote add origin git@github.</description>
 $ mkdir ~/code-server &amp;amp;&amp;amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
  $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz $ tar -xzvf code-server-3.2.0-linux-x86_64.tar.gz Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:
 $ sudo cp -r code-server-3.2.0-linux-x86_64 /usr/lib/code-server Then, create a symbolic link at /usr/bin/code-server, pointing to the code-server executable:</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://sall.w-ss.io/pages/about/</link>
-      <pubDate>Sat, 25 Jul 2020 19:57:50 +0000</pubDate>
-      
-      <guid>https://sall.w-ss.io/pages/about/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -64,6 +46,16 @@ $ sudo cp -r code-server-3.2.0-linux-x86_64 /usr/lib/code-server Then, create a 
   GitLab
   GitHub
   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sall.w-ss.io/pages/dotfiles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sall.w-ss.io/pages/dotfiles/</guid>
+      <description>Table of Contents  Table of Contents  Prerequisites Installation Files Tree   Issues Contributing Contact  Prerequisites This is list of prerequisites to use .dotfiles
+ git rsync  Installation  Clone the repository  git clone https://github.com/ss-o/.dotfiles.git Enter directory and execute setup.sh  cd .dotfiles &amp;amp;&amp;amp; ./setup.sh Files Tree . ├── Dockerfile ├── git │ ├── gitconfig │ ├── gitconfig.local │ ├── gitconfig.local.example │ └── gitignore ├── lib │ ├── scripts │ │ ├── bootstrap.</description>
     </item>
     
   </channel>

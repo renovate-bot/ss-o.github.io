@@ -6,15 +6,15 @@
     <description>Recent content in Pages on Salvydas Lukosius</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Digital Clouds | WiseHub MG LTD</copyright>
-    <lastBuildDate>Sat, 25 Jul 2020 19:57:50 +0000</lastBuildDate><atom:link href="https://sall.w-ss.io/pages/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Digital Clouds | WiseHub MG LTD</copyright><atom:link href="https://sall.w-ss.io/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>https://sall.w-ss.io/pages/about/</link>
-      <pubDate>Sat, 25 Jul 2020 19:57:50 +0000</pubDate>
+      <title></title>
+      <link>https://sall.w-ss.io/pages/dotfiles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sall.w-ss.io/pages/about/</guid>
-      <description></description>
+      <guid>https://sall.w-ss.io/pages/dotfiles/</guid>
+      <description>Table of Contents  Table of Contents  Prerequisites Installation Files Tree   Issues Contributing Contact  Prerequisites This is list of prerequisites to use .dotfiles
+ git rsync  Installation  Clone the repository  git clone https://github.com/ss-o/.dotfiles.git Enter directory and execute setup.sh  cd .dotfiles &amp;amp;&amp;amp; ./setup.sh Files Tree . ├── Dockerfile ├── git │ ├── gitconfig │ ├── gitconfig.local │ ├── gitconfig.local.example │ └── gitignore ├── lib │ ├── scripts │ │ ├── bootstrap.</description>
     </item>
     
   </channel>

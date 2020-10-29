@@ -120,7 +120,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "gitlab"
-    url  = "https://gitlab.com/sall-lab/"
+    url  = "https://gitlab.com/ss-o/"
 
   [[params.social]]
     name = "linkedin"
@@ -147,6 +147,20 @@ disableHugoGeneratorInject = false
 #    name       = "About"
 #    url        = "about/"
   [[menu.main]]
+    identifier = "pages"
+    name       = "Meniu"
+    url        = "pages/"
+    weight = "1"
+    
+    [[menu.main]]
+    identifier = "pages"
+    name       = "My Dotfiles"
+    url        = "https://raw.githubusercontent.com/ss-o/dotfiles/main/README.md"
+#    weight = ""
+
+  [[menu.main]]
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+    weight = "2"
+

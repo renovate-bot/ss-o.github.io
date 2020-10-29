@@ -38,16 +38,6 @@
   </url>
   
   <url>
-    <loc>https://sall.w-ss.io/linux/dev/</loc>
-    <lastmod>2020-08-07T12:49:14+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/linux/</loc>
-    <lastmod>2020-08-07T12:49:14+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sall.w-ss.io/posts/2020/07/code-server/</loc>
     <lastmod>2020-07-26T18:24:36+01:00</lastmod>
   </url>
@@ -63,22 +53,20 @@
   </url>
   
   <url>
-    <loc>https://sall.w-ss.io/pages/about/</loc>
-    <lastmod>2020-07-25T19:57:50+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/pages/</loc>
-    <lastmod>2020-07-25T19:57:50+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sall.w-ss.io/about/</loc>
     <lastmod>2020-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://sall.w-ss.io/pages/dotfiles/</loc>
+  </url>
+  
+  <url>
     <loc>https://sall.w-ss.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/pages/</loc>
   </url>
   
   <url>
