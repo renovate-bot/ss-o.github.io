@@ -142,28 +142,12 @@ disableHugoGeneratorInject = false
 #    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
-#  [[menu.main]]
-#    identifier = "about"
-#    name       = "About"
-#    url        = "about/"
-    
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
-    weight = "20"
-
 
 [[menu.main]]
-    identifier = "content"
-    name = "Content"
-    weight = 1
-
-[[menu.main]]
-    parent = "content"
-    name = "My Projects"
+    identifier = "projects"
+    name = "Projects"
     url = "projects/"
-    weight = 1
+    weight = "1"
 
 #[[menu.main]]
 #    parent = "content"
@@ -175,11 +159,16 @@ disableHugoGeneratorInject = false
     identifier = "docs"
     name = "Docs"
     url = "docs/"
-    weight = 2
+    weight = "2"
 
 [[menu.main]]
     name = "Tags"
     url = "tags"
-    weight = 3
+    weight = "3"
+
+#  [[menu.main]]
+#    identifier = "about"
+#    name       = "About"
+#    url        = "about/"
 
 
