@@ -151,11 +151,17 @@ disableHugoGeneratorInject = false
     name       = "Meniu"
     url        = "pages/"
     weight = "1"
+
+      [[menu.main]]
+    identifier = "pages"
+    name       = "dotfiles"
+    url        = "https://sall.w-ss.io/dotfiles"
+    weight = "11"
     
 
   [[menu.main]]
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
-    weight = "2"
+    weight = "20"
 

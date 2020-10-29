@@ -54,8 +54,7 @@ $ sudo cp -r code-server-3.2.0-linux-x86_64 /usr/lib/code-server Then, create a 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sall.w-ss.io/pages/dotfiles/</guid>
-      <description>Table of Contents  Table of Contents  Prerequisites Installation Files Tree   Issues Contributing Contact  Prerequisites This is list of prerequisites to use .dotfiles
- git rsync  Installation  Clone the repository  git clone https://github.com/ss-o/.dotfiles.git Enter directory and execute setup.sh  cd .dotfiles &amp;amp;&amp;amp; ./setup.sh Files Tree . ├── Dockerfile ├── git │ ├── gitconfig │ ├── gitconfig.local │ ├── gitconfig.local.example │ └── gitignore ├── lib │ ├── scripts │ │ ├── bootstrap.</description>
+      <description></description>
     </item>
     
   </channel>
