@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="Salvydas Lukosius ">
-<meta name="description" content="Table of Contents  Table of Contents About The Project  Prerequisites Installation Files Tree   Issues Contributing Contact  About The Project Prerequisites This is list of prerequisites to setup dotfiles
- git rsync  Installation  Clone the repository  git clone https://github.com/ss-o/dotfiles.git .dotfiles Enter directory and execute setup.sh  cd .dotfiles &amp;amp;&amp;amp; ./setup.sh Files Tree . ├── Dockerfile ├── git │ ├── gitconfig │ ├── gitconfig." />
+<meta name="description" content="Table of Contents  Table of Contents About Prerequisites Installation Files Tree  About Prerequisites This is list of prerequisites to setup dotfiles
+ git rsync  Installation  Clone the repository  git clone https://github.com/ss-o/dotfiles.git .dotfiles Enter directory and execute setup.sh  cd .dotfiles &amp;amp;&amp;amp; ./setup.sh Files Tree . ├── Dockerfile ├── git │ ├── gitconfig │ ├── gitconfig.local │ ├── gitconfig.local.example │ └── gitignore ├── lib │ ├── scripts │ │ ├── bootstrap." />
 <meta name="keywords" content="Salvydas, Lukosius, Digital, Clouds, Blog, dotfiles" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="#252627" />
@@ -43,11 +43,11 @@
 
 
 <meta itemprop="name" content="Personal dotfiles">
-<meta itemprop="description" content="Table of Contents  Table of Contents About The Project  Prerequisites Installation Files Tree   Issues Contributing Contact  About The Project Prerequisites This is list of prerequisites to setup dotfiles
- git rsync  Installation  Clone the repository  git clone https://github.com/ss-o/dotfiles.git .dotfiles Enter directory and execute setup.sh  cd .dotfiles &amp;&amp; ./setup.sh Files Tree . ├── Dockerfile ├── git │ ├── gitconfig │ ├── gitconfig.">
+<meta itemprop="description" content="Table of Contents  Table of Contents About Prerequisites Installation Files Tree  About Prerequisites This is list of prerequisites to setup dotfiles
+ git rsync  Installation  Clone the repository  git clone https://github.com/ss-o/dotfiles.git .dotfiles Enter directory and execute setup.sh  cd .dotfiles &amp;&amp; ./setup.sh Files Tree . ├── Dockerfile ├── git │ ├── gitconfig │ ├── gitconfig.local │ ├── gitconfig.local.example │ └── gitignore ├── lib │ ├── scripts │ │ ├── bootstrap.">
 <meta itemprop="datePublished" content="2020-10-29T22:49:29+00:00" />
 <meta itemprop="dateModified" content="2020-10-29T22:49:29+00:00" />
-<meta itemprop="wordCount" content="194">
+<meta itemprop="wordCount" content="106">
 <meta itemprop="image" content="https://sall.w-ss.io/img"/>
 
 
@@ -58,14 +58,14 @@
 <meta name="twitter:image" content="https://sall.w-ss.io/img"/>
 
 <meta name="twitter:title" content="Personal dotfiles"/>
-<meta name="twitter:description" content="Table of Contents  Table of Contents About The Project  Prerequisites Installation Files Tree   Issues Contributing Contact  About The Project Prerequisites This is list of prerequisites to setup dotfiles
- git rsync  Installation  Clone the repository  git clone https://github.com/ss-o/dotfiles.git .dotfiles Enter directory and execute setup.sh  cd .dotfiles &amp;&amp; ./setup.sh Files Tree . ├── Dockerfile ├── git │ ├── gitconfig │ ├── gitconfig."/>
+<meta name="twitter:description" content="Table of Contents  Table of Contents About Prerequisites Installation Files Tree  About Prerequisites This is list of prerequisites to setup dotfiles
+ git rsync  Installation  Clone the repository  git clone https://github.com/ss-o/dotfiles.git .dotfiles Enter directory and execute setup.sh  cd .dotfiles &amp;&amp; ./setup.sh Files Tree . ├── Dockerfile ├── git │ ├── gitconfig │ ├── gitconfig.local │ ├── gitconfig.local.example │ └── gitignore ├── lib │ ├── scripts │ │ ├── bootstrap."/>
 
 
 
     <meta property="og:title" content="Personal dotfiles" />
-<meta property="og:description" content="Table of Contents  Table of Contents About The Project  Prerequisites Installation Files Tree   Issues Contributing Contact  About The Project Prerequisites This is list of prerequisites to setup dotfiles
- git rsync  Installation  Clone the repository  git clone https://github.com/ss-o/dotfiles.git .dotfiles Enter directory and execute setup.sh  cd .dotfiles &amp;&amp; ./setup.sh Files Tree . ├── Dockerfile ├── git │ ├── gitconfig │ ├── gitconfig." />
+<meta property="og:description" content="Table of Contents  Table of Contents About Prerequisites Installation Files Tree  About Prerequisites This is list of prerequisites to setup dotfiles
+ git rsync  Installation  Clone the repository  git clone https://github.com/ss-o/dotfiles.git .dotfiles Enter directory and execute setup.sh  cd .dotfiles &amp;&amp; ./setup.sh Files Tree . ├── Dockerfile ├── git │ ├── gitconfig │ ├── gitconfig.local │ ├── gitconfig.local.example │ └── gitignore ├── lib │ ├── scripts │ │ ├── bootstrap." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://sall.w-ss.io/projects/dotfiles/" />
 <meta property="og:image" content="https://sall.w-ss.io/img"/>
@@ -154,22 +154,16 @@
 <p><!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
-<h2 id="table-of-contents">Table of Contents</h2>
+<h3 id="table-of-contents">Table of Contents</h3>
 <ul>
 <li><a href="#table-of-contents">Table of Contents</a></li>
-<li><a href="#about-the-project">About The Project</a>
-<ul>
+<li><a href="#about">About</a></li>
 <li><a href="#prerequisites">Prerequisites</a></li>
 <li><a href="#installation">Installation</a></li>
 <li><a href="#files-tree">Files Tree</a></li>
 </ul>
-</li>
-<li><a href="#issues">Issues</a></li>
-<li><a href="#contributing">Contributing</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
 <!-- raw HTML omitted -->
-<h2 id="about-the-project">About The Project</h2>
+<h3 id="about">About</h3>
 <h3 id="prerequisites">Prerequisites</h3>
 <p>This is list of prerequisites to setup dotfiles</p>
 <ul>
@@ -214,23 +208,6 @@
 
 <span style="color:#ae81ff">6</span> directories, <span style="color:#ae81ff">17</span> files
 </code></pre></div><!-- raw HTML omitted -->
-<h2 id="issues">Issues</h2>
-<p>See the <a href="https://github.com/ss-o/dotfiles/issues">open issues</a> for a list of proposed features (and known issues).</p>
-<!-- raw HTML omitted -->
-<h2 id="contributing">Contributing</h2>
-<p>Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are <strong>greatly appreciated</strong>.</p>
-<ol>
-<li>Fork the Project</li>
-<li>Create your Feature Branch (<code>git checkout -b feature/FeatureName</code>)</li>
-<li>Add new files (<code>git add .</code>)</li>
-<li>Commit your Changes (<code>git commit -m 'New Feature'</code>)</li>
-<li>Push to the Branch (<code>git push origin feature/Feature</code>)</li>
-<li>Open a Pull Request</li>
-</ol>
-<!-- raw HTML omitted -->
-<h2 id="contact">Contact</h2>
-<p><a href="https://twitter.com/digital_wizz">Twitter</a> | <a href="https://sall.w-s.io">Website</a></p>
-<!-- raw HTML omitted -->
 
             </div>
         </article>

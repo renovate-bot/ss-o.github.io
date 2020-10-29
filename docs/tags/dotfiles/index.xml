@@ -14,8 +14,8 @@
       <pubDate>Thu, 29 Oct 2020 22:49:29 +0000</pubDate>
       
       <guid>https://sall.w-ss.io/projects/dotfiles/</guid>
-      <description>Table of Contents  Table of Contents About The Project  Prerequisites Installation Files Tree   Issues Contributing Contact  About The Project Prerequisites This is list of prerequisites to setup dotfiles
- git rsync  Installation  Clone the repository  git clone https://github.com/ss-o/dotfiles.git .dotfiles Enter directory and execute setup.sh  cd .dotfiles &amp;amp;&amp;amp; ./setup.sh Files Tree . ├── Dockerfile ├── git │ ├── gitconfig │ ├── gitconfig.</description>
+      <description>Table of Contents  Table of Contents About Prerequisites Installation Files Tree  About Prerequisites This is list of prerequisites to setup dotfiles
+ git rsync  Installation  Clone the repository  git clone https://github.com/ss-o/dotfiles.git .dotfiles Enter directory and execute setup.sh  cd .dotfiles &amp;amp;&amp;amp; ./setup.sh Files Tree . ├── Dockerfile ├── git │ ├── gitconfig │ ├── gitconfig.local │ ├── gitconfig.local.example │ └── gitignore ├── lib │ ├── scripts │ │ ├── bootstrap.</description>
     </item>
     
   </channel>
