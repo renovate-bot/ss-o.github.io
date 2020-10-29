@@ -146,22 +146,40 @@ disableHugoGeneratorInject = false
 #    identifier = "about"
 #    name       = "About"
 #    url        = "about/"
-  [[menu.main]]
-    identifier = "pages"
-    name       = "Meniu"
-    url        = "pages/"
-    weight = "10"
-
-#  [[menu.main]]
-#    identifier = "pages"
-#    name       = "dotfiles"
-#    url        = "https://sall.w-ss.io/dotfiles/"
-#    weight = "11"
     
-
   [[menu.main]]
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
     weight = "20"
+
+
+[[menu.main]]
+    identifier = "content"
+    name = "Content"
+    weight = 1
+
+[[menu.main]]
+    parent = "content"
+    name = "My Projects"
+    url = "projects/"
+    weight = 1
+
+#[[menu.main]]
+#    parent = "content"
+#    name = ""
+#    url = "https://sall.w-ss.io/dotfiles"
+#    weight = 2
+
+[[menu.main]]
+    identifier = "docs"
+    name = "Docs"
+    url = "docs/"
+    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
+
 
