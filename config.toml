@@ -101,7 +101,7 @@ disableHugoGeneratorInject = false
 
   # Uncomment this if you want a portrait on your start page
   [params.portrait]
-    path     = "img/ninj.png"
+    path     = "static/images/ninja.png.png"
     alt      = "avatar"
     maxWidth = "260px"
 
