@@ -15,8 +15,11 @@
             <pubDate>Fri, 30 Oct 2020 02:16:39 +0000</pubDate>
             
             <guid>https://sall.w-ss.io/projects/projects/</guid>
-            <description></description>
-            <content type="html"><![CDATA[]]></content>
+            <description> Personal Dotfiles  </description>
+            <content type="html"><![CDATA[<ul>
+<li>Personal <a href="https://github.com/ss-o/dotfiles">Dotfiles</a></li>
+</ul>
+]]></content>
         </item>
         
     </channel>

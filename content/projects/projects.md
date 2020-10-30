@@ -5,6 +5,7 @@ draft: false
 comments: true
 images:
 tags:
-  - dotfiles
+  - projects
 ---
 
+- Personal [Dotfiles](https://github.com/ss-o/dotfiles) 
