@@ -55,12 +55,12 @@ disableHugoGeneratorInject = false
   # Metadata mostly used in document's head
   description = "Personal Blog | Salvydas Lukosius"
   keywords = "Salvydas, Lukosius, Digital, Clouds, Blog"
-  images = ["docs/images/"]
+  images = ["images/"]
 
   homeSubtitle = "Personal Blog | Digital Clouds | WiseHub MG LTD"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  gitUrl = "https://github.com/ss-o/"
+  gitUrl = "https://github.com/ss-o/ss-o.github.io"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -101,7 +101,7 @@ disableHugoGeneratorInject = false
 
   # Uncomment this if you want a portrait on your start page
   [params.portrait]
-    path     = "docs/images/ninja.png"
+    path     = "images/ninja.png"
     alt      = "avatar"
     maxWidth = "260px"
 
