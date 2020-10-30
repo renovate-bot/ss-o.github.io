@@ -146,32 +146,28 @@ disableHugoGeneratorInject = false
 [[menu.main]]
     identifier = "projects"
     name = "Projects"
-    url = ""
+    url = "projects/"
     weight = 1
+    
+#[[menu.main]]
+#    parent = "projects"
+#    name = "Projects"
+#    url = "projects/"
+#    weight = 3
 
 [[menu.main]]
-    parent = "projects"
-    name = "Projects List"
+    identifier = "pages"
+    name = "Content"
     url = "pages/"
     weight = 2
-    
+
 [[menu.main]]
-    parent = "projects"
-    name = "Dotfiles Setup"
-    url = "https://github.com/ss-o/dotfiles.wiki.git"
+    name = "Categories"
+    url = "categories"
     weight = 3
 
-#[[menu.main]]
-#    name = "Tags"
-#    url = "tags"
-#    weight = "2"
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 4
 
-#  [[menu.main]]
-#    identifier = "about"
-#    name       = "About"
-#    url        = "about/"
-#  [[menu.main]]
-#    identifier = "docs"
-#    name = "Docs"
-#    url = "docs/"
-#    weight = "2"
