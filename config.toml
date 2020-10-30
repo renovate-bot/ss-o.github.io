@@ -1,6 +1,6 @@
 baseURL = "https://sall.w-ss.io/"
 title   = "Salvydas Lukosius"
-languageCode = "en-us"
+languageCode = "en-gb"
 theme = "hello"
 
 PygmentsCodeFences = true
@@ -55,7 +55,7 @@ disableHugoGeneratorInject = false
   # Metadata mostly used in document's head
   description = "Personal Blog | Salvydas Lukosius"
   keywords = "Salvydas, Lukosius, Digital, Clouds, Blog"
-  images = ["images/"]
+  images = ["docs/images/"]
 
   homeSubtitle = "Personal Blog | Digital Clouds | WiseHub MG LTD"
 
@@ -101,7 +101,7 @@ disableHugoGeneratorInject = false
 
   # Uncomment this if you want a portrait on your start page
   [params.portrait]
-    path     = "images/ninja.png"
+    path     = "docs/images/ninja.png"
     alt      = "avatar"
     maxWidth = "260px"
 
