@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sall.w-ss.io/about/</loc>
+    <lastmod>2020-10-30T03:20:59+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sall.w-ss.io/projects/</loc>
     <lastmod>2020-10-30T02:16:39+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://sall.w-ss.io/tags/projects/</loc>
-    <lastmod>2020-10-30T02:16:39+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/projects/projects/</loc>
     <lastmod>2020-10-30T02:16:39+00:00</lastmod>
   </url>
   
@@ -53,8 +53,8 @@
   </url>
   
   <url>
-    <loc>https://sall.w-ss.io/about/</loc>
-    <lastmod>2020-04-09T00:00:00+00:00</lastmod>
+    <loc>https://sall.w-ss.io/tags/vscode/</loc>
+    <lastmod>2020-07-26T18:24:36+01:00</lastmod>
   </url>
   
   <url>

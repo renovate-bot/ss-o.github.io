@@ -3,22 +3,23 @@ title: "Code-Server"
 date: 2020-07-26T18:24:36+01:00
 draft: false
 toc: false
-images: 
-tags:
+images:
+  -
+tags: 
   - code-server
+  - vscode
 ---
 
-### Setup code-server for remote access
 **Linux Ubuntu 18.04/20.04** tested
 
-![screenshot](https://github.com/ss-o/ss-o.github.io/raw/master/docs/img/screenshot.png)
+![screenshot](img/screenshot.png)
   
 
 ```bash
 $ mkdir ~/code-server && cd ~/code-server
 ```
 
-[![logo] From official [github releases](https://github.com/cdr/code-server/releases) page of code-server pick the latest Linux build (the file will contain ‘linux’ in it's name).
+From official [github releases](https://github.com/cdr/code-server/releases) page of code-server pick the latest Linux build (the file will contain ‘linux’ in it's name).
 
 
 ```bash

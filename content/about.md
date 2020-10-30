@@ -1,18 +1,8 @@
-+++
-title = "About"
-date = "2020-04-09"
-aliases = ["about-us","contact"]
-[ author ]
-  name = "Author"
-+++
+---
+title: "About"
+date: 2020-10-30T03:20:59Z
+draft: true
+comments: false
+images:
+---
 
-
-### Salvydas Lukosius
-
-> "Every man must decide whether he will walk in light of creative altruism or in darkness of destructive selfishness." 
-   - Martin Luther King Jr.
-   
-- [Stackoverflow](https://stackoverflow.com/users/13893752/salvydas-lukosius)
-- [Linkedin](https://www.linkedin.com/public-profile/in/digital-clouds)
-- [GitLab](https://gitlab.com/sall-lab)
-- [GitHub](https://github.com/ss-o)

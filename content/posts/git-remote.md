@@ -6,7 +6,6 @@ toc: false
 images:
 tags:
   - git
----
 
 ---
 ![git logo](https://github.com/ss-o/ss-o.github.io/raw/master/static/img/git-goodness.gif)

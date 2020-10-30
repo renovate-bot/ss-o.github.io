@@ -9,12 +9,12 @@
     <copyright>Digital Clouds | WiseHub MG LTD</copyright>
     <lastBuildDate>Fri, 30 Oct 2020 02:16:39 +0000</lastBuildDate><atom:link href="https://sall.w-ss.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Projects List</title>
-      <link>https://sall.w-ss.io/projects/projects/</link>
-      <pubDate>Fri, 30 Oct 2020 02:16:39 +0000</pubDate>
+      <title>About</title>
+      <link>https://sall.w-ss.io/about/</link>
+      <pubDate>Fri, 30 Oct 2020 03:20:59 +0000</pubDate>
       
-      <guid>https://sall.w-ss.io/projects/projects/</guid>
-      <description> Personal Dotfiles  </description>
+      <guid>https://sall.w-ss.io/about/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -36,25 +36,10 @@ git remote add origin git@github.</description>
       <pubDate>Sun, 26 Jul 2020 18:24:36 +0100</pubDate>
       
       <guid>https://sall.w-ss.io/posts/2020/07/code-server/</guid>
-      <description>Setup code-server for remote access Linux Ubuntu 18.04/20.04 tested
-$ mkdir ~/code-server &amp;amp;&amp;amp; cd ~/code-server [From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in it&amp;rsquo;s name).
+      <description>Linux Ubuntu 18.04/20.04 tested
+$ mkdir ~/code-server &amp;amp;&amp;amp; cd ~/code-server From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in it&amp;rsquo;s name).
 $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz $ tar -xzvf code-server-3.2.0-linux-x86_64.tar.gz Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:
 $ sudo cp -r code-server-3.2.0-linux-x86_64 /usr/lib/code-server Then, create a symbolic link at /usr/bin/code-server, pointing to the code-server executable:</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://sall.w-ss.io/about/</link>
-      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://sall.w-ss.io/about/</guid>
-      <description>Salvydas Lukosius  &amp;ldquo;Every man must decide whether he will walk in light of creative altruism or in darkness of destructive selfishness.&amp;rdquo;
-   Martin Luther King Jr.
-  Stackoverflow
-  Linkedin
-  GitLab
-  GitHub
-  </description>
     </item>
     
   </channel>
