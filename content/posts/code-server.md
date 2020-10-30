@@ -3,6 +3,8 @@ title: "Code Server"
 date: 2020-07-26T18:24:36+01:00
 draft: false
 toc: false
+images: 
+  - code-server.png
 tags: 
   - code-server
   - vscode
@@ -148,4 +150,4 @@ $ sudo certbot --nginx -d code-server.your-domain
 
 ---
 
-[screenshot]: code-server.png
+[screenshot]: images/code-server.png
