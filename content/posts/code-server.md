@@ -18,7 +18,7 @@ tags:
 $ mkdir ~/code-server && cd ~/code-server
 ```
 
-> From official [github releases](https://github.com/cdr/code-server/releases) page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
+[![logo] From official [github releases](https://github.com/cdr/code-server/releases) page of code-server pick the latest Linux build (the file will contain ‘linux’ in it's name).
 
 
 ```bash
@@ -147,3 +147,7 @@ $ sudo ufw reload
 ```bash
 $ sudo certbot --nginx -d code-server.your-domain
 ```
+
+---
+
+[logo]: https://github.com/ss-o/ss-o.github.io/blob/master/static/img/png/icons8-visual-studio-code-2019-50.png
