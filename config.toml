@@ -24,7 +24,7 @@ buildExpired = false
 canonifyURLs = true
 
 enableRobotsTXT = true
-enableGitInfo   = true
+enableGitInfo   = false
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
 disableRSS     = false
@@ -60,7 +60,7 @@ disableHugoGeneratorInject = false
   homeSubtitle = "Personal Blog | Digital Clouds | WiseHub MG LTD"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  gitUrl = "https://github.com/ss-o/ss-o.github.io/"
+  gitUrl = "https://github.com/ss-o/"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
