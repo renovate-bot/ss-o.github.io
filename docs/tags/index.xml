@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Digital Clouds | WiseHub MG LTD</copyright>
-    <lastBuildDate>Sun, 13 Sep 2020 23:36:52 +0100</lastBuildDate><atom:link href="https://sall.w-ss.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Oct 2020 02:16:39 +0000</lastBuildDate><atom:link href="https://sall.w-ss.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dotfiles</title>
+      <link>https://sall.w-ss.io/tags/dotfiles/</link>
+      <pubDate>Fri, 30 Oct 2020 02:16:39 +0000</pubDate>
+      
+      <guid>https://sall.w-ss.io/tags/dotfiles/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>git</title>
       <link>https://sall.w-ss.io/tags/git/</link>

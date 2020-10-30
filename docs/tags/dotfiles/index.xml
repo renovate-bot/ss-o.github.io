@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Digital Clouds | WiseHub MG LTD</copyright>
-    <lastBuildDate>Thu, 29 Oct 2020 22:49:29 +0000</lastBuildDate><atom:link href="https://sall.w-ss.io/tags/dotfiles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Oct 2020 02:16:39 +0000</lastBuildDate><atom:link href="https://sall.w-ss.io/tags/dotfiles/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Personal Dotfiles Setup</title>
-      <link>https://sall.w-ss.io/projects/dotfiles/docs/</link>
-      <pubDate>Thu, 29 Oct 2020 22:49:29 +0000</pubDate>
+      <title>Projects List</title>
+      <link>https://sall.w-ss.io/projects/projects/</link>
+      <pubDate>Fri, 30 Oct 2020 02:16:39 +0000</pubDate>
       
-      <guid>https://sall.w-ss.io/projects/dotfiles/docs/</guid>
-      <description>Contents Tree  Contents Tree Prerequisites Installation Files Tree Contributing   Prerequisites This is list of prerequisites to setup dotfiles
- git rsync   Installation  Clone the repository  git clone https://github.com/ss-o/dotfiles.git .dotfiles Enter directory and execute setup.sh  cd .dotfiles &amp;amp;&amp;amp; ./setup.sh  Files Tree . ├── Dockerfile ├── git │ ├── gitconfig │ ├── gitconfig.local │ ├── gitconfig.local.example │ └── gitignore ├── lib │ ├── scripts │ │ ├── bootstrap.</description>
+      <guid>https://sall.w-ss.io/projects/projects/</guid>
+      <description></description>
     </item>
     
   </channel>

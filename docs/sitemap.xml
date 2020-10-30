@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sall.w-ss.io/tags/dotfiles/</loc>
+    <lastmod>2020-10-30T02:16:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/projects/</loc>
+    <lastmod>2020-10-30T02:16:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/projects/projects/</loc>
+    <lastmod>2020-10-30T02:16:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/</loc>
+    <lastmod>2020-10-30T02:16:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/tags/</loc>
+    <lastmod>2020-10-30T02:16:39+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sall.w-ss.io/tags/git/</loc>
     <lastmod>2020-10-30T01:59:54+00:00</lastmod>
   </url>
@@ -14,16 +39,6 @@
   
   <url>
     <loc>https://sall.w-ss.io/posts/</loc>
-    <lastmod>2020-10-30T01:59:54+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/</loc>
-    <lastmod>2020-10-30T01:59:54+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/tags/</loc>
     <lastmod>2020-10-30T01:59:54+00:00</lastmod>
   </url>
   
