@@ -20,7 +20,7 @@
   Create a new repository on the command line:
 echo “# Git Repository” &amp;gt;&amp;gt; README.md git init git add README.md git commit -m “first commit&amp;#34; git branch -M master git remote add origin git@github.com:your-repo/your-repo-name.git git push -u origin master Push an existing repository from the command line:
 git remote add origin git@github.</description>
-            <content type="html"><![CDATA[<p><img src="../../img/git-goodness.gif" alt="git logo"></p>
+            <content type="html"><![CDATA[<p><img src="https://sall.w-ss.io/img/git-goodness.gif" alt="git logo"></p>
 <p>How to install git on your system: <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a>, <a href="https://git-scm.com/doc">Documentation</a>.</p>
 <blockquote>
 <p>You can store your repositories: <a href="https://github.com">github.com</a>, <a href="https://gitlab.com">gitlab.com</a>, <a href="https://bitbucket.org">bitbucket.org</a> and etc.</p>
@@ -52,7 +52,7 @@ git push -u origin master
 $ mkdir ~/code-server &amp;amp;&amp;amp; cd ~/code-server From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in it&amp;rsquo;s name).
 $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz $ tar -xzvf code-server-3.2.0-linux-x86_64.tar.gz Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:
 $ sudo cp -r code-server-3.2.0-linux-x86_64 /usr/lib/code-server Then, create a symbolic link at /usr/bin/code-server, pointing to the code-server executable:</description>
-            <content type="html"><![CDATA[<p><img src="../../img/code-server.png" alt="code-server"></p>
+            <content type="html"><![CDATA[<p><img src="https://sall.w-ss.io/img/code-server.png" alt="code-server"></p>
 <p><strong>Linux Ubuntu 18.04/20.04</strong> tested</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ mkdir ~/code-server <span style="color:#f92672">&amp;&amp;</span> cd ~/code-server
 </code></pre></div><p>From official <a href="https://github.com/cdr/code-server/releases">github releases</a> page of code-server pick the latest Linux build (the file will contain ‘linux’ in it&rsquo;s name).</p>
