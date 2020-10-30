@@ -55,7 +55,7 @@ disableHugoGeneratorInject = false
   # Metadata mostly used in document's head
   description = "Personal Blog | Salvydas Lukosius"
   keywords = "Salvydas, Lukosius, Digital, Clouds, Blog"
-  images = ["docs/images"]
+  images = ["https://raw.githubusercontent.com/ss-o/images/master/"]
 
   homeSubtitle = "Personal Blog | Digital Clouds | WiseHub MG LTD"
 
