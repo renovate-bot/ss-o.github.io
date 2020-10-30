@@ -148,4 +148,4 @@ $ sudo certbot --nginx -d code-server.your-domain
 
 ---
 
-[code-server]: ../../images/code-server.png
+[code-server]: ../../img/code-server.png

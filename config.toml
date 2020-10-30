@@ -55,7 +55,7 @@ disableHugoGeneratorInject = false
   # Metadata mostly used in document's head
   description = "Personal Blog | Salvydas Lukosius"
   keywords = "Salvydas, Lukosius, Digital, Clouds, Blog"
-  images = ["docs/img/"]
+  images = ["img/"]
 
   homeSubtitle = "Personal Blog | Digital Clouds | WiseHub MG LTD"
 
@@ -101,7 +101,7 @@ disableHugoGeneratorInject = false
 
   # Uncomment this if you want a portrait on your start page
   [params.portrait]
-    path     = "docs/img/ninja.png"
+    path     = "img/ninja.png"
     alt      = "avatar"
     maxWidth = "260px"
 
@@ -161,13 +161,13 @@ disableHugoGeneratorInject = false
     url = "posts/"
     weight = 2
 
-#[[menu.main]]
-#    name = "Categories"
-#    url = "categories"
-#    weight = 3
+[[menu.main]]
+    name = "Categories"
+    url = "categories/"
+    weight = 3
 
 [[menu.main]]
     name = "Tags"
     url = "tags"
-    weight = 3
+    weight = 4
 
