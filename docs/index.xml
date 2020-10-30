@@ -10,10 +10,10 @@
     <lastBuildDate>Sun, 13 Sep 2020 23:36:52 +0100</lastBuildDate><atom:link href="https://sall.w-ss.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Remote Repository</title>
-      <link>https://sall.w-ss.io/docs/git-remote/</link>
+      <link>https://sall.w-ss.io/posts/2020/09/git-remote-repository/</link>
       <pubDate>Sun, 13 Sep 2020 23:36:52 +0100</pubDate>
       
-      <guid>https://sall.w-ss.io/docs/git-remote/</guid>
+      <guid>https://sall.w-ss.io/posts/2020/09/git-remote-repository/</guid>
       <description>How to install git on your system: https://git-scm.com/downloads, Documentation.
  You can store your repositories: github.com, gitlab.com, bitbucket.org and etc.
   Create a new repository on the command line:
@@ -23,10 +23,10 @@ git remote add origin git@github.</description>
     
     <item>
       <title>Code-Server</title>
-      <link>https://sall.w-ss.io/docs/code-server/</link>
+      <link>https://sall.w-ss.io/posts/2020/07/code-server/</link>
       <pubDate>Sun, 26 Jul 2020 18:24:36 +0100</pubDate>
       
-      <guid>https://sall.w-ss.io/docs/code-server/</guid>
+      <guid>https://sall.w-ss.io/posts/2020/07/code-server/</guid>
       <description>Setup code-server for remote access Linux Ubuntu 18.04/20.04 tested
 $ mkdir ~/code-server &amp;amp;&amp;amp; cd ~/code-server  From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in its name).
  $ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz $ tar -xzvf code-server-3.2.0-linux-x86_64.tar.gz Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:

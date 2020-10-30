@@ -146,14 +146,20 @@ disableHugoGeneratorInject = false
 [[menu.main]]
     identifier = "projects"
     name = "Projects"
-#    url = "projects/"
-    weight = "1"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    parent = "projects"
+    name = "Projects List"
+    url = "pages/"
+    weight = 2
     
-    [[menu.main]]
+[[menu.main]]
     parent = "projects"
     name = "Dotfiles Setup"
     url = "https://github.com/ss-o/dotfiles.wiki.git"
-    weight = "10"
+    weight = 3
 
 #[[menu.main]]
 #    name = "Tags"

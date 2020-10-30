@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sall.w-ss.io/docs/</loc>
-    <lastmod>2020-10-29T23:09:16+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sall.w-ss.io/tags/git/</loc>
     <lastmod>2020-10-29T23:09:16+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sall.w-ss.io/docs/git-remote/</loc>
+    <loc>https://sall.w-ss.io/posts/2020/09/git-remote-repository/</loc>
+    <lastmod>2020-10-29T23:09:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/posts/</loc>
     <lastmod>2020-10-29T23:09:16+00:00</lastmod>
   </url>
   
@@ -28,13 +28,13 @@
   </url>
   
   <url>
-    <loc>https://sall.w-ss.io/docs/code-server/</loc>
-    <lastmod>2020-10-29T23:09:16+00:00</lastmod>
+    <loc>https://sall.w-ss.io/posts/2020/07/code-server/</loc>
+    <lastmod>2020-10-29T22:42:24+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://sall.w-ss.io/tags/code-server/</loc>
-    <lastmod>2020-10-29T23:09:16+00:00</lastmod>
+    <lastmod>2020-10-29T22:42:24+00:00</lastmod>
   </url>
   
   <url>
