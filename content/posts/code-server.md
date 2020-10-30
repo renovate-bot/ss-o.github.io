@@ -1,19 +1,17 @@
 ---
-title: "Code-Server"
+title: "Code Server"
 date: 2020-07-26T18:24:36+01:00
 draft: false
 toc: false
 images:
-  -
+  - code-server.png
 tags: 
   - code-server
   - vscode
 ---
 
+![screenshot]
 **Linux Ubuntu 18.04/20.04** tested
-
-![screenshot](img/screenshot.png)
-  
 
 ```bash
 $ mkdir ~/code-server && cd ~/code-server
@@ -151,4 +149,4 @@ $ sudo certbot --nginx -d code-server.your-domain
 
 ---
 
-[logo]: https://github.com/ss-o/ss-o.github.io/blob/master/static/img/png/icons8-visual-studio-code-2019-50.png
+[screenshot]: https://sall.w-ss.io/images/code-server.png

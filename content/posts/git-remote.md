@@ -8,7 +8,7 @@ tags:
   - git
 
 ---
-![git logo](https://github.com/ss-o/ss-o.github.io/raw/master/static/img/git-goodness.gif)
+![git logo](https://sall.w-ss.io/images/git-goodness.gif)
 
 How to install git on your system: [https://git-scm.com/downloads](https://git-scm.com/downloads), [Documentation](https://git-scm.com/doc).
 

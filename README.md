@@ -7,13 +7,13 @@
 <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Salvydas Lukosius's DEV Profile" height="30" widt1h="30">
 </a>
 <a href="https://gitlab.com/ss-o">
-<img src="img/svg/stack-overflow-brands.svg" alt="Salvydas Lukosius's Stackoverflow Profile" height="30" widt1h="30">
+<img src="images/svg/stack-overflow-brands.svg" alt="Salvydas Lukosius's Stackoverflow Profile" height="30" widt1h="30">
 </a>
 <a href="https://stackoverflow.com/users/13893752/salvydas-lukosius">
-<img src="img/svg/gitlab-brands.svg" alt="Salvydas Lukosius's Gitlab Profile" height="30" widt1h="30">
+<img src="images/svg/gitlab-brands.svg" alt="Salvydas Lukosius's Gitlab Profile" height="30" widt1h="30">
 </a>
 <a href="https://wayscript.com/user/salvydas_lukosius">
-<img src="img/png/wayscript_color.png" alt="Salvydas Lukosius's WayScript Workflows" height="30" widt1h="30">
+<img src="images/png/wayscript_color.png" alt="Salvydas Lukosius's WayScript Workflows" height="30" widt1h="30">
 </a>
 
 ------
