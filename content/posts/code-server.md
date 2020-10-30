@@ -11,6 +11,7 @@ tags:
 ---
 
 ![screenshot]
+
 **Linux Ubuntu 18.04/20.04** tested
 
 ```bash
@@ -149,4 +150,4 @@ $ sudo certbot --nginx -d code-server.your-domain
 
 ---
 
-[screenshot]: static/images/code-server.png
+[screenshot]: docs/images/code-server.png
