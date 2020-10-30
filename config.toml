@@ -24,7 +24,7 @@ buildExpired = false
 canonifyURLs = true
 
 enableRobotsTXT = true
-enableGitInfo   = false
+enableGitInfo   = true
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
 disableRSS     = false
@@ -60,7 +60,7 @@ disableHugoGeneratorInject = false
   homeSubtitle = "Personal Blog | Digital Clouds | WiseHub MG LTD"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = ""
+    gitUrl = "https://sall.w-ss.io/"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -73,11 +73,11 @@ disableHugoGeneratorInject = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  customCSS = []
-  customJS  = []
+#  customCSS = []
+#  customJS  = []
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  justifyContent = false  # Set "text-align: justify" to .post-content.
+  justifyContent = true  # Set "text-align: justify" to .post-content.
 
   # Default theme "light" or "dark"
   defaultTheme = "dark"
@@ -97,7 +97,7 @@ disableHugoGeneratorInject = false
     # Set to a valid CSS color to change the cursor in the logo.
     logoCursorColor    = "#00FF00"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    logoCursorAnimate  = "3s"
+    logoCursorAnimate  = "2s"
 
   # Uncomment this if you want a portrait on your start page
   [params.portrait]
@@ -146,19 +146,19 @@ disableHugoGeneratorInject = false
 [[menu.main]]
     identifier = "projects"
     name = "Projects"
-    url = "projects/"
+#    url = "projects/"
     weight = "1"
     
-#[[menu.main]]
-#    parent = "projects"
-#    name = "Dotfiles Setup"
-#    url = "projects/dotfiles/"
-#    weight = "20"
+    [[menu.main]]
+    parent = "projects"
+    name = "Dotfiles Setup"
+    url = "https://github.com/ss-o/dotfiles.wiki.git"
+    weight = "10"
 
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = "2"
+#[[menu.main]]
+#    name = "Tags"
+#    url = "tags"
+#    weight = "2"
 
 #  [[menu.main]]
 #    identifier = "about"
