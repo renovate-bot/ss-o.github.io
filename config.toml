@@ -146,7 +146,7 @@ disableHugoGeneratorInject = false
 [[menu.main]]
     identifier = "projects"
     name = "Projects"
-    url = "posts/"
+    url = "pages/"
     weight = 1
     
 #[[menu.main]]
@@ -156,9 +156,9 @@ disableHugoGeneratorInject = false
 #    weight = 3
 
 [[menu.main]]
-    identifier = "pages"
-    name = "Content"
-    url = "pages/"
+    identifier = "posts"
+    name = "Posts"
+    url = "posts/"
     weight = 2
 
 #[[menu.main]]
