@@ -8,26 +8,6 @@
   </url>
   
   <url>
-    <loc>https://sall.w-ss.io/projects/</loc>
-    <lastmod>2020-10-30T02:16:39+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/tags/projects/</loc>
-    <lastmod>2020-10-30T02:16:39+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/</loc>
-    <lastmod>2020-10-30T02:16:39+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/tags/</loc>
-    <lastmod>2020-10-30T02:16:39+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sall.w-ss.io/tags/git/</loc>
     <lastmod>2020-09-13T23:36:52+01:00</lastmod>
   </url>
@@ -39,6 +19,16 @@
   
   <url>
     <loc>https://sall.w-ss.io/posts/</loc>
+    <lastmod>2020-09-13T23:36:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/</loc>
+    <lastmod>2020-09-13T23:36:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sall.w-ss.io/tags/</loc>
     <lastmod>2020-09-13T23:36:52+01:00</lastmod>
   </url>
   
