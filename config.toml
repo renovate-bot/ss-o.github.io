@@ -55,7 +55,7 @@ disableHugoGeneratorInject = false
   # Metadata mostly used in document's head
   description = "Personal Blog | Salvydas Lukosius"
   keywords = "Salvydas, Lukosius, Digital, Clouds, Blog"
-  images = ["img/"]
+  images = ["img"]
 
   homeSubtitle = "Personal Blog | Digital Clouds | WiseHub MG LTD"
 
@@ -161,10 +161,10 @@ disableHugoGeneratorInject = false
     url = "posts/"
     weight = 2
 
-[[menu.main]]
-    name = "Categories"
-    url = "categories/"
-    weight = 3
+#[[menu.main]]
+#    name = "Categories"
+#    url = "categories/"
+#    weight = 3
 
 [[menu.main]]
     name = "Tags"
