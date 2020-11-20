@@ -20,13 +20,13 @@ publishDir   = "docs"
 
 buildDrafts  = true
 buildFuture  = true
-buildExpired = false
+buildExpired = true
 canonifyURLs = true
 
 enableRobotsTXT = true
 enableGitInfo   = false
 enableEmoji     = true
-enableMissingTranslationPlaceholders = false
+enableMissingTranslationPlaceholders = true
 disableRSS     = false
 disableSitemap = false
 disable404     = false
@@ -143,11 +143,11 @@ disableHugoGeneratorInject = false
 
 [menu]
 
-[[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "projects/"
-    weight = 1
+#[[menu.main]]
+#    identifier = "projects"
+#    name = "Projects"
+#    url = "projects/"
+#    weight = 1
     
 #[[menu.main]]
 #    parent = "projects"
@@ -159,7 +159,7 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name = "Posts"
     url = "posts/"
-    weight = 2
+    weight = 1
 
 #[[menu.main]]
 #    name = "Categories"
@@ -169,5 +169,5 @@ disableHugoGeneratorInject = false
 [[menu.main]]
     name = "Tags"
     url = "tags"
-    weight = 4
+    weight = 2
 
