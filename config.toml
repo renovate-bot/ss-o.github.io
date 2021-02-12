@@ -47,17 +47,17 @@ disableHugoGeneratorInject = false
   series   = "series"
 
 [params]
-  dateform        = "Jan 1, 2020"
+  dateform        = "Jan 1, 2021"
   dateformShort   = "Jan 2"
-  dateformNum     = "20020-01-02"
-  dateformNumTime = "20020-01-02 15:04 -0700"
+  dateformNum     = "2021-01-02"
+  dateformNumTime = "2021-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
   description = "Personal Blog | Salvydas Lukosius"
   keywords = "Salvydas, Lukosius, Digital, Clouds, Blog"
   images = ["img"]
 
-  homeSubtitle = "Personal Blog | Digital Clouds | WiseHub MG LTD"
+  homeSubtitle = "Digital Clouds | WiseHub MG LTD"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   gitUrl = "https://github.com/ss-o/ss-o.github.io"
@@ -143,15 +143,10 @@ disableHugoGeneratorInject = false
 
 [menu]
 
-#[[menu.main]]
-#    identifier = "projects"
-#    name = "Projects"
-#    url = "projects/"
-#    weight = 1
-    
 [[menu.main]]
-    name = "About"
-    url = "about.md"
+    identifier = "projects"
+    name = "Projects"
+    url = "projects/"
     weight = 1
 
 [[menu.main]]

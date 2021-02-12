@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/sall/MEGA/WORKSPACE/web/ss-o.github.io",
+	"sourceRoot": "/home/sall/.codespace/((_NET_))/ss-o.github.io",
 	"sources": [
 		"themes/hello/assets/scss/main.scss",
 		"themes/hello/assets/scss/_normalize.scss",
