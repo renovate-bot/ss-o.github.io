@@ -24,7 +24,7 @@ buildExpired = true
 canonifyURLs = true
 
 enableRobotsTXT = true
-enableGitInfo   = false
+enableGitInfo   = true
 enableEmoji     = true
 enableMissingTranslationPlaceholders = true
 disableRSS     = false
@@ -57,7 +57,7 @@ disableHugoGeneratorInject = false
   keywords = "Salvydas, Lukosius, Digital, Clouds, Blog"
   images = ["img"]
 
-  homeSubtitle = "Digital Clouds | WiseHub MG LTD"
+  homeSubtitle = "Digital Clouds | Solutions"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   gitUrl = "https://github.com/ss-o/ss-o.github.io"
@@ -106,9 +106,13 @@ disableHugoGeneratorInject = false
     maxWidth = "260px"
 
   # Social icons
+  [[params.blog]]
+    name = "DC Blog"
+    url  = "https://go.digitalclouds.dev"
+
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/digital_wizz/"
+    url  = "https://twitter.com/salldc/"
 
   [[params.social]]
     name = "email"
@@ -132,9 +136,9 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Digital Clouds Projects"
+    subtitle  = "Digital Clouds"
     weight    = 1
-    copyright = 'Digital Clouds | WiseHub MG LTD'
+    copyright = 'Digital Clouds | Solutions'
 
 #  [languages.lt]
 #    subtitle  = "Hello Friend NG Theme"
@@ -143,25 +147,25 @@ disableHugoGeneratorInject = false
 
 [menu]
 
-[[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "projects/"
-    weight = 1
+#[[menu.main]]
+#    identifier = "projects"
+#    name = "Projects"
+#    url = "projects/"
+#    weight = 1
 
-[[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "posts/"
-    weight = 2
+#[[menu.main]]
+#    identifier = "posts"
+#    name = "Posts"
+#    url = "posts/"
+#    weight = 2
 
 #[[menu.main]]
 #    name = "Categories"
 #    url = "categories/"
 #    weight = 3
 
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
+#[[menu.main]]
+#    name = "Tags"
+#    url = "tags"
+#    weight = 3
 

@@ -1,68 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://sall.w-ss.io/playlists/list/</loc>
-    <lastmod>2020-12-03T19:51:44+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/playlists/</loc>
-    <lastmod>2020-12-03T19:51:44+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/</loc>
-    <lastmod>2020-12-03T19:51:44+00:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://sall.w-ss.io/about/</loc>
-    <lastmod>2020-10-30T03:20:59+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/tags/git/</loc>
-    <lastmod>2020-09-13T23:36:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/posts/2020/09/git-remote-repository/</loc>
-    <lastmod>2020-09-13T23:36:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/posts/</loc>
-    <lastmod>2020-09-13T23:36:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/tags/</loc>
-    <lastmod>2020-09-13T23:36:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/posts/2020/07/code-server/</loc>
-    <lastmod>2020-07-26T18:24:36+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/tags/code-server/</loc>
-    <lastmod>2020-07-26T18:24:36+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sall.w-ss.io/tags/vscode/</loc>
-    <lastmod>2020-07-26T18:24:36+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-11-20T07:00:45+00:00</lastmod>
+  </url><url>
     <loc>https://sall.w-ss.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://sall.w-ss.io/</loc>
+  </url><url>
     <loc>https://sall.w-ss.io/series/</loc>
+  </url><url>
+    <loc>https://sall.w-ss.io/tags/</loc>
   </url>
-  
 </urlset>
