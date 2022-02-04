@@ -1,4 +1,8 @@
-# 'IC Hosting - Mainnet'
+# Salvdas Lukosius
 
-  - **Canister ID: 5ynei-liaaa-aaaad-qaqoa-cai**
-  - **HTTP: sso.w-ss.io**
+
+## Web3
+
+- IC Hosting: `Mainnet` 
+- Canister ID: `5ynei-liaaa-aaaad-qaqoa-cai`
+- Domain: [sso.w-ss.io](https://sso.w-ss.io)
