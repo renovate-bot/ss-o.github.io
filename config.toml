@@ -1,7 +1,7 @@
 baseURL = "https://ss-o.github.io"
 title   = "Salvydas Lukosius"
 languageCode = "en-gb"
-#theme = "hello-friend-ng"
+theme = ""
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -45,38 +45,42 @@ disableHugoGeneratorInject = false
   category = "categories"
   series   = "series"
 
+[sitemap]
+  changefreq = "weekl"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [params]
   dateform        = "Jan 1, 2022"
   dateformShort   = "Jan 2"
   dateformNum     = "2022-01-02"
   dateformNumTime = "2022-01-02 15:04 -0700"
-
+  #
   # Metadata mostly used in document's head
   description = "Personal Blog about technology and open-source"
   keywords = "Salvdas, Lukosius, open-source, linux, tech"
   images = ["img"]
   homeSubtitle = ""
-
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  #
   gitUrl = "https://github.com/ss-o/ss-o.github.io/commit/"
-
+  #
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
-
-  # Enable theme toggle
   #
+  # Enable theme toggle
   # This options enables the theme toggle for the theme.
   # Per default, this option is off.
   # The theme is respecting the prefers-color-scheme of the operating systeme.
   # With this option on, the page user is able to set the scheme he wants.
-  enableThemeToggle = false
-
+  enableThemeToggle = true
+  #
   # Sharing buttons
   # There are a lot of buttons preconfigured. If you want to change them,
   # generate the buttons here: https://sharingbuttons.io
   # and add them into your own `layouts/partials/sharing-buttons.html`
   enableSharingButtons = true
-
+  #
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   #  customCSS = []
@@ -92,12 +96,12 @@ disableHugoGeneratorInject = false
     rss = true
     copyright = true
     author = true
-    topText = []
-    bottomText = []
 
-  # Default theme "light" or "dark"
-  defaultTheme = "dark"
-  themeColor = "#0D1117"
+    topText = []
+    bottomText = [
+            "Also see &#10084; <a href=\"https://github.com/digital-clouds\">Digital Clouds</a>",
+      " <a href=\"https://github.com/z-shell\">Z-Shell ZI</a> &#10084;"
+    ]
 
   # Colors for favicons
   [params.favicon.color]
@@ -106,7 +110,7 @@ disableHugoGeneratorInject = false
     theme = "#161B22"
 
   [params.logo]
-    logoMark     = "➜ "
+    logoMark     = " ➜ "
     logoText     = "~ "
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
@@ -153,9 +157,9 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = ""
+    subtitle  = "Salvydas Lukosius"
     weight    = 1
-    copyright = 'Salvydas Lukosius'
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 #  [languages.lt]
 #    subtitle  = "Hello Friend NG Theme"
@@ -163,7 +167,6 @@ disableHugoGeneratorInject = false
 #    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
-
 #  [[menu.main]]
 #    identifier = "about"
 #    name       = "About"
@@ -172,9 +175,10 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+    weight = 2
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "tags/"
-#    weight = 3
+    weight = 3
 
