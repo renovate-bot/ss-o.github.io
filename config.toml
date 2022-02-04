@@ -5,11 +5,9 @@ theme = "hello"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
-
 paginate  = 10
 rssLimit  = 10
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-
 googleAnalytics = "G-QJP2ZTRCH9"
 
 archetypeDir = "archetypes"
@@ -53,12 +51,11 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2022-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Personal Blog of Salvydas Lukosius"
-  keywords = "Salvydas Lukosius, Digital Clouds, Blog"
+  description = "Personal Blog"
+  keywords = "Salvdas, Lukosius, open-source, linux, tech"
   images = ["img"]
-
-  homeSubtitle = "Digital Clouds Solution"
-
+  homeSubtitle = ""
+  
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   gitUrl = "https://github.com/ss-o/ss-o.github.io/commit/"
 
@@ -73,24 +70,24 @@ disableHugoGeneratorInject = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-#  customCSS = []
-#  customJS  = []
+  #  customCSS = []
+  #  customJS  = []
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   justifyContent = true  # Set "text-align: justify" to .post-content.
 
   # Default theme "light" or "dark"
   defaultTheme = "dark"
-  themeColor = "#252627"
+  themeColor = "#0D1117"
 
   # Colors for favicons
   [params.favicon.color]
-    mask = "#252627"
-    msapplication = "#252627"
-    theme = "#252627"
+    mask = "#161B22"
+    msapplication = "#161B22"
+    theme = "#161B22"
 
   [params.logo]
-    logoText     = "$ cd ~/"
+    logoText     = "➜  ~ "
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -138,7 +135,7 @@ disableHugoGeneratorInject = false
   [languages.en]
     subtitle  = "Digital Clouds"
     weight    = 1
-    copyright = 'Digital Clouds | Solutions'
+    copyright = 'Salvydas Lukosius'
 
 #  [languages.lt]
 #    subtitle  = "Hello Friend NG Theme"
