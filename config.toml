@@ -1,10 +1,11 @@
-baseURL = "https://ss-o.github.io/"
+baseURL = "https://ss-o.github.io"
 title   = "Salvydas Lukosius"
 languageCode = "en-gb"
-theme = "hello"
+#theme = "hello-friend-ng"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
+
 paginate  = 10
 rssLimit  = 10
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
@@ -51,16 +52,24 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2022-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Personal Blog"
+  description = "Personal Blog about technology and open-source"
   keywords = "Salvdas, Lukosius, open-source, linux, tech"
   images = ["img"]
   homeSubtitle = ""
-  
+
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   gitUrl = "https://github.com/ss-o/ss-o.github.io/commit/"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
+
+  # Enable theme toggle
+  #
+  # This options enables the theme toggle for the theme.
+  # Per default, this option is off.
+  # The theme is respecting the prefers-color-scheme of the operating systeme.
+  # With this option on, the page user is able to set the scheme he wants.
+  enableThemeToggle = false
 
   # Sharing buttons
   # There are a lot of buttons preconfigured. If you want to change them,
@@ -76,6 +85,16 @@ disableHugoGeneratorInject = false
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   justifyContent = true  # Set "text-align: justify" to .post-content.
 
+  # Custom footer
+  # If you want, you can easily override the default footer with your own content.
+  [params.footer]
+    trademark = true
+    rss = true
+    copyright = true
+    author = true
+    topText = []
+    bottomText = []
+
   # Default theme "light" or "dark"
   defaultTheme = "dark"
   themeColor = "#0D1117"
@@ -87,14 +106,15 @@ disableHugoGeneratorInject = false
     theme = "#161B22"
 
   [params.logo]
-    logoText     = "➜  ~ "
+    logoMark     = "➜ "
+    logoText     = "~ "
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
     # Set to a valid CSS color to change the cursor in the logo.
     logoCursorColor    = "#00FF00"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    logoCursorAnimate  = "3s"
+    logoCursorAnimate  = "2s"
 
   # Uncomment this if you want a portrait on your start page
   [params.portrait]
@@ -133,7 +153,7 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Digital Clouds"
+    subtitle  = ""
     weight    = 1
     copyright = 'Salvydas Lukosius'
 
@@ -144,25 +164,17 @@ disableHugoGeneratorInject = false
 
 [menu]
 
-#[[menu.main]]
-#    identifier = "projects"
-#    name = "Projects"
-#    url = "projects/"
-#    weight = 1
-
-#[[menu.main]]
-#    identifier = "posts"
-#    name = "Posts"
-#    url = "posts/"
-#    weight = 2
-
-#[[menu.main]]
-#    name = "Categories"
-#    url = "categories/"
-#    weight = 3
-
-#[[menu.main]]
-#    name = "Tags"
-#    url = "tags"
+#  [[menu.main]]
+#    identifier = "about"
+#    name       = "About"
+#    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "tags/"
 #    weight = 3
 
