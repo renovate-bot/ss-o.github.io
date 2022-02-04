@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Playlists on Salvydas Lukosius</title>
+    <link>https://sall.w-ss.io/playlists/</link>
+    <description>Recent content in Playlists on Salvydas Lukosius</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>Digital Clouds | WiseHub MG LTD</copyright>
+    <lastBuildDate>Thu, 03 Dec 2020 19:51:44 +0000</lastBuildDate><atom:link href="https://sall.w-ss.io/playlists/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>List</title>
+      <link>https://sall.w-ss.io/playlists/list/</link>
+      <pubDate>Thu, 03 Dec 2020 19:51:44 +0000</pubDate>
+      
+      <guid>https://sall.w-ss.io/playlists/list/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,125 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Salvydas Lukosius</title>
+        <link>https://sall.w-ss.io/posts/</link>
+        <description>Recent content in Posts on Salvydas Lukosius</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-gb</language>
+        <copyright>Digital Clouds | WiseHub MG LTD</copyright>
+        <lastBuildDate>Sun, 13 Sep 2020 23:36:52 +0100</lastBuildDate>
+        <atom:link href="https://sall.w-ss.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Git Remote Repository</title>
+            <link>https://sall.w-ss.io/posts/2020/09/git-remote-repository/</link>
+            <pubDate>Sun, 13 Sep 2020 23:36:52 +0100</pubDate>
+            
+            <guid>https://sall.w-ss.io/posts/2020/09/git-remote-repository/</guid>
+            <description>How to install git on your system: https://git-scm.com/downloads, Documentation.
+ You can store your repositories: github.com, gitlab.com, bitbucket.org and etc.
+  Create a new repository on the command line:
+echo “# Git Repository” &amp;gt;&amp;gt; README.md git init git add README.md git commit -m “first commit&amp;#34; git branch -M master git remote add origin git@github.com:your-repo/your-repo-name.git git push -u origin master Push an existing repository from the command line:
+git remote add origin git@github.</description>
+            <content type="html"><![CDATA[<p><img src="https://sall.w-ss.io/img/git-goodness.gif" alt="git logo"></p>
+<p>How to install git on your system: <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a>, <a href="https://git-scm.com/doc">Documentation</a>.</p>
+<blockquote>
+<p>You can store your repositories: <a href="https://github.com">github.com</a>, <a href="https://gitlab.com">gitlab.com</a>, <a href="https://bitbucket.org">bitbucket.org</a> and etc.</p>
+</blockquote>
+<hr>
+<p>Create a new repository on the command line:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo “# Git Repository” &gt;&gt; README.md 
+git init 
+git add README.md 
+git commit -m “first commit<span style="color:#e6db74">&#34; 
+</span><span style="color:#e6db74">git branch -M master 
+</span><span style="color:#e6db74">git remote add origin git@github.com:your-repo/your-repo-name.git
+</span><span style="color:#e6db74">git push -u origin master 
+</span></code></pre></div><p>Push an existing repository from the command line:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git remote add origin git@github.com:your-repo/your-repo-name.git 
+git branch -M master 
+git push -u origin master
+</code></pre></div><p>Your repository available to view on site you chose.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Code Server</title>
+            <link>https://sall.w-ss.io/posts/2020/07/code-server/</link>
+            <pubDate>Sun, 26 Jul 2020 18:24:36 +0100</pubDate>
+            
+            <guid>https://sall.w-ss.io/posts/2020/07/code-server/</guid>
+            <description>Linux Ubuntu 18.04/20.04 tested
+$ mkdir ~/code-server &amp;amp;&amp;amp; cd ~/code-server From official github releases page of code-server pick the latest Linux build (the file will contain ‘linux’ in it&amp;rsquo;s name).
+$ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz $ tar -xzvf code-server-3.2.0-linux-x86_64.tar.gz Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:
+$ sudo cp -r code-server-3.2.0-linux-x86_64 /usr/lib/code-server Then, create a symbolic link at /usr/bin/code-server, pointing to the code-server executable:</description>
+            <content type="html"><![CDATA[<p><img src="https://sall.w-ss.io/img/code-server.png" alt="code-server"></p>
+<p><strong>Linux Ubuntu 18.04/20.04</strong> tested</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ mkdir ~/code-server <span style="color:#f92672">&amp;&amp;</span> cd ~/code-server
+</code></pre></div><p>From official <a href="https://github.com/cdr/code-server/releases">github releases</a> page of code-server pick the latest Linux build (the file will contain ‘linux’ in it&rsquo;s name).</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ wget https://github.com/cdr/code-server/releases/download/3.2.0/code-server-3.2.0-linux-x86_64.tar.gz
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ tar -xzvf code-server-3.2.0-linux-x86_64.tar.gz
+</code></pre></div><p>Copy it to /usr/lib/code-server so you’ll be able to access it system wide by running the following command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo cp -r code-server-3.2.0-linux-x86_64 /usr/lib/code-server
+</code></pre></div><p>Then, create a symbolic link at /usr/bin/code-server, pointing to the code-server executable:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo ln -s /usr/lib/code-server/code-server /usr/bin/code-server
+</code></pre></div><p>Next, create a folder for code-server, where it will store user data:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo mkdir /var/lib/code-server
+</code></pre></div><p>Create <code>code-server.service</code> to run in background with the following commands:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo nano /lib/systemd/system/code-server.service
+</code></pre></div><p>Add the following lines:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">[</span>Unit<span style="color:#f92672">]</span>
+Description<span style="color:#f92672">=</span>code-server
+After<span style="color:#f92672">=</span>nginx.service
+
+<span style="color:#f92672">[</span>Service<span style="color:#f92672">]</span>
+User<span style="color:#f92672">=</span>your_user
+Type<span style="color:#f92672">=</span>simple
+Environment<span style="color:#f92672">=</span>PASSWORD<span style="color:#f92672">=</span>your_password
+ExecStart<span style="color:#f92672">=</span>/usr/bin/code-server --bind-addr 127.0.0.1:8080 --user-data-dir /var/lib/code-server --auth password
+Restart<span style="color:#f92672">=</span>always
+
+<span style="color:#f92672">[</span>Install<span style="color:#f92672">]</span>
+WantedBy<span style="color:#f92672">=</span>multi-user.target
+</code></pre></div><p>Start the code-server service by running the following command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo systemctl start code-server
+</code></pre></div><p>Check that it’s started correctly by observing its status:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo systemctl status code-server
+</code></pre></div><p>To make code-server start automatically after a server reboot, enable its service by running the following command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo systemctl enable code-server
+</code></pre></div><p>Make sure nginx installed. As you have learned in the Nginx prerequisite step, its site configuration files are stored under /etc/nginx/sites-available and must later be symlinked to /etc/nginx/sites-enabled to become active.</p>
+<blockquote>
+<p>You’ll store the configuration for exposing code-server at your domain in a file named code-server.conf, under /etc/nginx/sites-available. Start off by creating it using your editor:</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo nano /etc/nginx/sites-available/code-server.conf
+</code></pre></div><p>Add following:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">server <span style="color:#f92672">{</span>
+    listen 80;
+    listen <span style="color:#f92672">[</span>::<span style="color:#f92672">]</span>:80;
+
+    server_name code-server.your-domain;
+
+    location / <span style="color:#f92672">{</span>
+      proxy_pass http://localhost:8080/;
+      proxy_set_header Upgrade $http_upgrade;
+      proxy_set_header Connection upgrade;
+      proxy_set_header Accept-Encoding gzip;
+    <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>To make this site configuration active, you will need to create a symlink of it in the /etc/nginx/sites-enabled folder by running:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo ln -s /etc/nginx/sites-available/code-server.conf /etc/nginx/sites-enabled/code-server.conf
+</code></pre></div><p>To test the validity of the configuration, run the following command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo nginx -t
+</code></pre></div><p>For the configuration to take effect, you’ll need to restart Nginx:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo systemctl restart nginx
+</code></pre></div><p>Setup certificate with cerbot:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo apt install python3-certbot-nginx
+$ sudo ufw allow https
+$ sudo ufw reload
+</code></pre></div><p>And finally:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo certbot --nginx -d code-server.your-domain
+</code></pre></div><hr>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
