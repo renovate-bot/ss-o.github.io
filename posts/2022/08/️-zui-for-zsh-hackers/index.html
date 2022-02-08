@@ -9,7 +9,7 @@
 When both setup, I would say - quite a strong combo.
 However, ❮ ZI ❯ has almost 100 repositories and some getting ready in China: gitee.com/z-shell it extends capabilities to no limit.
 Is no limit not impressive? Well, then include almost all from here: awesome-zsh-plugins as most are compatible :)">
-<meta name=keywords content="Salvdas,Lukosius,open-source,linux,tech,zsh">
+<meta name=keywords content="open-source,linux,softaware,blog,tech,zsh">
 <meta name=robots content="noodp">
 <meta name=theme-color content>
 <link rel=canonical href=/posts/2022/08/%EF%B8%8F-zui-for-zsh-hackers/>
@@ -65,7 +65,7 @@ Is no limit not impressive? Well, then include almost all from here: awesome-zsh
 <div class=logo>
 <span class=logo__mark> ➜ </span>
 <span class=logo__text>~ </span>
-<span class=logo__cursor style=background-color:#0f0;animation-duration:2s>
+<span class=logo__cursor style=background-color:#0f0;animation-duration:1.5s>
 </span>
 </div>
 </a>
@@ -105,16 +105,74 @@ Is no limit not impressive? Well, then include almost all from here: awesome-zsh
 </li>
 <li><a href=#standard-library>Standard Library</a>
 <ul>
-<li><a href=#calls-of-standard-library>Calls of Standard Library</a></li>
+<li><a href=#calls-of-standard-library>Calls of Standard Library</a>
+<ul>
+<li><a href=#-zui_std_init>-zui_std_init</a></li>
+<li><a href=#-zui_std_init2>-zui_std_init2</a></li>
+<li><a href=#-zui_std_stalog>-zui_std_stalog</a></li>
+<li><a href=#-zui_std_special_text>-zui_std_special_text</a></li>
+<li><a href=#-zui_std_button_ext>-zui_std_button_ext</a></li>
+<li><a href=#-zui_std_rc_button_ext>-zui_std_rc_button_ext</a></li>
+<li><a href=#-zui_std_anchor>-zui_std_anchor</a></li>
+<li><a href=#-zui_std_text_field>-zui_std_text_field</a></li>
+<li><a href=#-zui_std_list_box>-zui_std_list_box</a></li>
+<li><a href=#-zui_std_get_ganchor>-zui_std_get_ganchor</a></li>
+<li><a href=#-zui_std_decode_hyperlink>-zui_std_decode_hyperlink</a></li>
+<li><a href=#-zui_std_decode_text_field>-zui_std_decode_text_field</a></li>
+<li><a href=#-zui_std_decode_list_box>-zui_std_decode_list_box</a></li>
+<li><a href=#-zui_std_decode>-zui_std_decode</a></li>
+<li><a href=#-zui_std_get_stext>-zui_std_get_stext</a></li>
+<li><a href=#-zui_std_is_hyperlink>-zui_std_is_hyperlink</a></li>
+<li><a href=#-zui_std_is_text_field>-zui_std_is_text_field</a></li>
+<li><a href=#-zui_std_is_list_box>-zui_std_is_list_box</a></li>
+<li><a href=#-zui_std_is_any_hyperlink>-zui_std_is_any_hyperlink</a></li>
+<li><a href=#-zui_std_has_any_hyperlinks>-zui_std_has_any_hyperlinks</a></li>
+<li><a href=#-zui_std_load_config>-zui_std_load_config</a></li>
+<li><a href=#-zui_std_store_default_app_config>-zui_std_store_default_app_config</a></li>
+<li><a href=#-zui_std_cleanup>-zui_std_cleanup</a></li>
+<li><a href=#-zui_std_set_mod_factor>-zui_std_set_mod_factor</a></li>
+<li><a href=#-zui_std_get_mod_factor>-zui_std_get_mod_factor</a></li>
+<li><a href=#-zui_std_load_global_index_and_size>-zui_std_load_global_index_and_size</a></li>
+<li><a href=#-zui_std_reset_replies>-zui_std_reset_replies</a></li>
+<li><a href=#-zui_std_map_replies>-zui_std_map_replies</a></li>
+<li><a href=#-zui_std_fly_mod_regen>-zui_std_fly_mod_regen</a></li>
+<li><a href=#-zui_std_fly_mod_regen_ext>-zui_std_fly_mod_regen_ext</a></li>
+<li><a href=#-zui_std_fly_array_refresh>-zui_std_fly_array_refresh</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href=#utility-library>Utility Library</a>
 <ul>
-<li><a href=#calls-of-utilities-library>Calls of Utilities Library</a></li>
-<li><a href=#callbacks>Callbacks</a></li>
+<li><a href=#calls-of-utilities-library>Calls of Utilities Library</a>
+<ul>
+<li><a href=#-zui_util_map_bools>-zui_util_map_bools</a></li>
+<li><a href=#-zui_util_strip_codes>-zui_util_strip_codes</a></li>
+<li><a href=#-zui_util_get_time>-zui_util_get_time</a></li>
+<li><a href=#-zui_util_get_datetime>-zui_util_get_datetime</a></li>
+<li><a href=#-zui_util_get_timestamp>-zui_util_get_timestamp</a></li>
+<li><a href=#-zui_util_has_default_color>-zui_util_has_default_color</a></li>
+<li><a href=#-zui_util_resolve_path>-zui_util_resolve_path</a></li>
+<li><a href=#-zui_util_to_cmd_line>-zui_util_to_cmd_line</a></li>
+<li><a href=#-zui_util_circular_next>-zui_util_circular_next</a></li>
+<li><a href=#-zui_util_circular_paths>-zui_util_circular_paths</a></li>
+</ul>
+</li>
+<li><a href=#callbacks>Callbacks</a>
+<ul>
+<li><a href=#-zui-standard-timeout-callback>-zui-standard-timeout-callback</a></li>
+<li><a href=#-zui-standard-text-select-callback>-zui-standard-text-select-callback</a></li>
+<li><a href=#-zui-standard-global-anchors-callback>-zui-standard-global-anchors-callback</a></li>
+<li><a href=#-zui-standard-status-callback>-zui-standard-status-callback</a></li>
+</ul>
+</li>
 <li><a href=#zstyles>Zstyles</a></li>
 <li><a href=#example---hello-world>Example - Hello World</a></li>
-<li><a href=#zui-installation>ZUI Installation</a></li>
+<li><a href=#zui-installation>ZUI Installation</a>
+<ul>
+<li><a href=#zui---zihttpsgithubcomz-shellzi>ZUI - <a href=https://github.com/z-shell/zi>ZI</a></a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -693,7 +751,7 @@ zui-event-loop 1:demo_generator_A
 </div>
 <div class=footer__inner>
 <div class=footer__content>
-<span>Also see &#10084; <a href=https://github.com/digital-clouds>Digital Clouds</a></span><span> <a href=https://github.com/z-shell>Z-Shell</a> &#10084;</span>
+<span>&#10084; <a href=https://github.com/digital-clouds>Digital Clouds</a></span><span> <a href=https://github.com/z-shell>Z-Shell</a> &#10084;</span>
 </div>
 </div>
 </footer>
