@@ -2,7 +2,7 @@
 name: 👾 CodeQL
 
 on:
-#  push:
+  push:
   pull_request:
   schedule:
     - cron: '15 21 * * 6'
