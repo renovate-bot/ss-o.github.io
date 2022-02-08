@@ -1,0 +1,69 @@
+---
+name: 🚀 Deploy Code to GH Pages
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+
+    steps:
+      - name: ⤵️ Check out code from GitHub
+        uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive).
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+# WHEN NODE REQUIRED IN TEMPLATE
+#      - name: Setup Node
+#        uses: actions/setup-node@v2
+#        with:
+#          node-version: '16'
+#      - name: Cache dependencies
+#        uses: actions/cache@v2
+#        with:
+#          path: ~/.npm
+#          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+#          restore-keys: |
+#            ${{ runner.os }}-node-
+#      - run: npm ci
+
+# WHEN RUBY REQUIRED IN TEMPLATE
+#      - name: Setup Ruby
+#        uses: ruby/setup-ruby@v1
+#        with:
+#          ruby-version: 3.0
+#      - run: gem install asciidoctor
+#      - name: ♻️ Build
+#        run: |
+#          alias asciidoctor="asciidoctor --attribute=experimental=true --attribute=icons=font"
+#          hugo --minify
+
+      - uses: actions/cache@v2
+        with:
+          path: /tmp/hugo_cache
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
+
+      - name: ♻️ Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"
+          extended: true
+
+      - name: ♻️ Build
+        run: hugo --minify
+
+      - name: 🚀 Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
