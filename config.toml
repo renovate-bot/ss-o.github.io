@@ -7,7 +7,7 @@ PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
 paginate  = 10
-rssLimit  = 10
+rssLimit  = 15
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 googleAnalytics = "G-JCC6XDZ2G2"
 
