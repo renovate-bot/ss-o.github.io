@@ -1,14 +1,17 @@
 ---
+author:
+  name: "Salvydas Lukosius"
+date: 2022-08-02
+linktitle: ❮ ⚙️ ⬢ ZUI For Zsh Hackers ⬢ ❯
+type:
+- post
+- posts
 title: ❮ ⚙️ ⬢ ZUI For Zsh Hackers ⬢ ❯
-description: Rapid Application Development with CGI+DHTML-like User Interface library for Zsh.
-canonical_url: https://z.digitalclouds.dev/docs/ecosystem/plugins/zui
-keywords: [zui, plugin, zsh, zinit, zi]
-tags: [opensource, productivity, github, zsh]
-authors:
-  - name: Salvydas Lukosius
-    url: https://ss-o.github.io
-    image_url: https://github.com/ss-o.png
+weight: 10
+series:
+- The Sorcery of Zsh 
 ---
+
 
 <h2 align="center">
 <a href="https://github.com/z-shell/zi">
