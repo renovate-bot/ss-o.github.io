@@ -51,11 +51,11 @@ disableHugoGeneratorInject = false
   priority = 0.5
 
 [params]
-  dateform        = "Jan 1, 2022"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2022-01-02"
+  dateform        = "January 1, 2022"
+  dateformShort   = "Jan 2, 2022"
+  dateformNum     = "2022/01/02"
   dateformNumTime = "2022-01-02 15:04 -0700"
-  #
+
   # Metadata mostly used in document's head
   description = "Personal Blog about All Open Source, Technology and Software"
   keywords = "Salvdas, Lukosius, open-source, linux, tech"
@@ -169,6 +169,13 @@ disableHugoGeneratorInject = false
 #    subtitle  = "Hello Friend NG Theme"
 #    weight    = 2
 #    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
 
 [menu]
 #  [[menu.main]]
