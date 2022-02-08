@@ -1,15 +1,15 @@
-#baseURL = "https://ss-o.github.io"
-baseURL = "/"
+baseURL = "https://ss-o.github.io"
+#baseURL = "/"
 title   = "Salvydas Lukosius"
 languageCode = "en-gb"
 #theme = "hello-friend-ng"
-#rssFullText = true
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
 paginate  = 10
 rssLimit  = 15
+#rssFullText = true
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 googleAnalytics = "G-JCC6XDZ2G2"
 
@@ -57,13 +57,14 @@ disableHugoGeneratorInject = false
   dateformShort   = "Jan 2, 2022"
   dateformNum     = "2022/01/02"
   dateformNumTime = "2022-01-02 15:04 -0700"
+  #
   # Metadata mostly used in document's head
   description = "Personal Blog about All Open Source, Technology and Software"
   keywords = "open-source, linux, softaware, blog, tech"
   images = ["img"]
   homeSubtitle = ""
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
   gitUrl = "https://github.com/ss-o/ss-o.github.io/commit/"
   #
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
@@ -86,10 +87,9 @@ disableHugoGeneratorInject = false
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   #  customCSS = []
   #  customJS  = []
-
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   justifyContent = true  # Set "text-align: justify" to .post-content.
-
+  #
   # Custom footer
   # If you want, you can easily override the default footer with your own content.
   [params.footer]
@@ -118,6 +118,7 @@ disableHugoGeneratorInject = false
     logoCursorColor    = "#00FF00"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     logoCursorAnimate  = "1.5s"
+  # 
   # Uncomment this if you want a portrait on your start page
   [params.portrait]
     path     = "img/ninja.png"
@@ -127,41 +128,33 @@ disableHugoGeneratorInject = false
 # [[params.social]]
 #    name = ""
 #    url  = "https://go.digitalclouds.dev"
-
   [[params.social]]
     name  = "matrix"
     url   = "https://matrix.to/#/@ss-o:matrix.org/"
-
   [[params.social]]
     name  = "twitter"
     url   = "https://twitter.com/salldc/"
-
   [[params.social]]
     name = "email"
     url  = "mailto:sall@w-ss.io"
-
   [[params.social]]
     name = "github"
     url  = "https://github.com/ss-o/"
-
   [[params.social]]
     name = "gitlab"
     url  = "https://gitlab.com/ss-o/"
-
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/ss-o/"
-
 #  [[params.social]]
 #    name = "stackoverflow"
 #    url  = "https://stackoverflow.com/users/13893752/salvydas-lukosius"
-
+#
 [languages]
   [languages.en]
     subtitle  = "Salvydas Lukosius"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
 #  [languages.lt]
 #    subtitle  = "Hello Friend NG Theme"
 #    weight    = 2
@@ -169,7 +162,7 @@ disableHugoGeneratorInject = false
 
 [markup]
   [markup.tableOfContents]
-    endLevel = 4
+    endLevel = 3
     ordered = false
     startLevel = 2
 
