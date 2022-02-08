@@ -9,13 +9,13 @@ PygmentsStyle = "monokai"
 paginate  = 10
 rssLimit  = 10
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-googleAnalytics = "G-QJP2ZTRCH9"
+googleAnalytics = "G-JCC6XDZ2G2"
 
 archetypeDir = "archetypes"
 contentDir   = "content"
 dataDir      = "data"
 layoutDir    = "layouts"
-publishDir   = ""
+publishDir   = "docs"
 
 buildDrafts  = true
 buildFuture  = true
@@ -100,7 +100,7 @@ disableHugoGeneratorInject = false
     topText = []
     bottomText = [
             "Also see &#10084; <a href=\"https://github.com/digital-clouds\">Digital Clouds</a>",
-      " <a href=\"https://github.com/z-shell\">Z-Shell ZI</a> &#10084;"
+      " <a href=\"https://github.com/z-shell\">Z-Shell</a> &#10084;"
     ]
 
   # Colors for favicons
@@ -127,8 +127,8 @@ disableHugoGeneratorInject = false
     maxWidth = "260px"
 
   # Social icons
-  [[params.social]]
-#    name = "blog"
+# [[params.social]]
+#    name = ""
 #    url  = "https://go.digitalclouds.dev"
 
   [[params.social]]
