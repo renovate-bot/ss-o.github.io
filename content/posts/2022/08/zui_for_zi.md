@@ -1,6 +1,8 @@
 ---
 author:
   name: "Salvydas Lukosius"
+  url: https://github.com/ss-o
+  image_url: https://github.com/ss-o.png
 date: 2022-08-02
 linktitle: ❮ ⚙️ ⬢ ZUI For Zsh Hackers ⬢ ❯
 type:
@@ -10,6 +12,10 @@ title: ❮ ⚙️ ⬢ ZUI For Zsh Hackers ⬢ ❯
 weight: 10
 series:
 - The Sorcery of Zsh 
+draft: true
+toc: false
+tags:
+  - zsh
 ---
 
 
