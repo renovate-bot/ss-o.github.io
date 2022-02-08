@@ -12,19 +12,15 @@ title: ❮ ⚙️ ⬢ ZUI For Zsh Hackers ⬢ ❯
 weight: 10
 series:
 - The Sorcery of Zsh 
-draft: true
-toc: false
+draft: false
+toc: true
 tags:
   - zsh
 ---
 
-
-<h2 align="center">
+<h1 align="center">
 <a href="https://github.com/z-shell/zi">
-<img src="https://raw.githubusercontent.com/z-shell/zi/main/docs/images/logo.png" alt="Logo" width="60" height="60" /></a></h2>
-
----
-
+<img src="https://raw.githubusercontent.com/z-shell/zi/main/docs/images/logo.png" alt="Logo" width="60" height="60" /></a></h1>
 <div align="center"><h2>
 
 ❮ [ZI](https://z-shell.pages.dev/) ❯ **is a fast and feature-rich plugin manager for [Zsh](https://zsh.sourceforge.io/) [Unix](https://en.wikipedia.org/wiki/Unix_shell) shell.** 
