@@ -1,7 +1,9 @@
-baseURL = "https://ss-o.github.io"
+#baseURL = "https://ss-o.github.io"
+baseURL = "/"
 title   = "Salvydas Lukosius"
 languageCode = "en-gb"
-theme = "hello-friend-ng"
+#theme = "hello-friend-ng"
+rssFullText = true
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
