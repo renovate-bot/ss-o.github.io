@@ -1,7 +1,7 @@
 baseURL = "https://ss-o.github.io"
 title   = "Salvydas Lukosius"
 languageCode = "en-gb"
-theme = ""
+theme = "hello-friend-ng"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -57,7 +57,7 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2022-01-02 15:04 -0700"
   #
   # Metadata mostly used in document's head
-  description = "Personal Blog about technology and open-source"
+  description = "Personal Blog about All Open Source, Technology and Software"
   keywords = "Salvdas, Lukosius, open-source, linux, tech"
   images = ["img"]
   homeSubtitle = ""
@@ -177,8 +177,8 @@ disableHugoGeneratorInject = false
 #    url        = "about/"
 
   [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
+    identifier = "blog"
+    name       = "Blog"
     url        = "posts/"
     weight = 2
 
