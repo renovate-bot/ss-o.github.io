@@ -3,7 +3,7 @@ baseURL = "/"
 title   = "Salvydas Lukosius"
 languageCode = "en-gb"
 #theme = "hello-friend-ng"
-rssFullText = true
+#rssFullText = true
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -48,7 +48,7 @@ disableHugoGeneratorInject = false
   series   = "series"
 
 [sitemap]
-  changefreq = "weekl"
+  changefreq = "daily"
   filename = "sitemap.xml"
   priority = 0.5
 
@@ -57,10 +57,9 @@ disableHugoGeneratorInject = false
   dateformShort   = "Jan 2, 2022"
   dateformNum     = "2022/01/02"
   dateformNumTime = "2022-01-02 15:04 -0700"
-
   # Metadata mostly used in document's head
   description = "Personal Blog about All Open Source, Technology and Software"
-  keywords = "Salvdas, Lukosius, open-source, linux, tech"
+  keywords = "open-source, linux, softaware, blog, tech"
   images = ["img"]
   homeSubtitle = ""
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
@@ -98,19 +97,17 @@ disableHugoGeneratorInject = false
     rss = true
     copyright = true
     author = true
-
     topText = []
     bottomText = [
-            "Also see &#10084; <a href=\"https://github.com/digital-clouds\">Digital Clouds</a>",
+            "&#10084; <a href=\"https://github.com/digital-clouds\">Digital Clouds</a>",
       " <a href=\"https://github.com/z-shell\">Z-Shell</a> &#10084;"
     ]
-
   # Colors for favicons
+  #
   [params.favicon.color]
     mask = "#161B22"
     msapplication = "#161B22"
     theme = "#161B22"
-
   [params.logo]
     logoMark     = " ➜ "
     logoText     = "~ "
@@ -120,15 +117,13 @@ disableHugoGeneratorInject = false
     # Set to a valid CSS color to change the cursor in the logo.
     logoCursorColor    = "#00FF00"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    logoCursorAnimate  = "2s"
-
+    logoCursorAnimate  = "1.5s"
   # Uncomment this if you want a portrait on your start page
   [params.portrait]
     path     = "img/ninja.png"
     alt      = "avatar"
     maxWidth = "260px"
-
-# Social icons
+  # Social icons
 # [[params.social]]
 #    name = ""
 #    url  = "https://go.digitalclouds.dev"
@@ -174,10 +169,9 @@ disableHugoGeneratorInject = false
 
 [markup]
   [markup.tableOfContents]
-    endLevel = 3
+    endLevel = 4
     ordered = false
     startLevel = 2
-
 
 [menu]
 #  [[menu.main]]
@@ -186,14 +180,14 @@ disableHugoGeneratorInject = false
 #    url        = "about/"
 
   [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "posts/"
-    weight = 2
+    identifier  = "blog"
+    name        = "Blog"
+    url         = "posts/"
+    weight      = 2
 
   [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "tags/"
-    weight = 3
+    identifier  = "tags"
+    name        = "Tags"
+    url         = "tags/"
+    weight      = 3
 
