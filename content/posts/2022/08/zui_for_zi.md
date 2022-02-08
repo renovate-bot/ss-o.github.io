@@ -1,8 +1,6 @@
 ---
 title: ❮ ⚙️ ⬢ ZUI For Zsh Hackers ⬢ ❯
 description: Rapid Application Development with CGI+DHTML-like User Interface library for Zsh.
-published: true
-date: 2022-02-07 00:00:00 UTC
 canonical_url: https://z.digitalclouds.dev/docs/ecosystem/plugins/zui
 keywords: [zui, plugin, zsh, zinit, zi]
 tags: [opensource, productivity, github, zsh]
@@ -22,15 +20,15 @@ authors:
 
 ❮ [ZI](https://z-shell.pages.dev/) ❯ **is a fast and feature-rich plugin manager for [Zsh](https://zsh.sourceforge.io/) [Unix](https://en.wikipedia.org/wiki/Unix_shell) shell.** 
 
-  ⬢ [ZUI](https://github.com/z-shell/zui/) is CGI+DHTML-like User Interface Library for Zsh / ZCurses
+⬢ [ZUI](https://github.com/z-shell/zui/) is CGI+DHTML-like User Interface Library for Zsh / ZCurses
 
 </div></h2>
 
 When both setup, I would say - **quite a strong combo**. 
 
-However, ❮ [ZI](https://z-shell.pages.dev/) ❯ has almost [100 repositories](https://github.com/orgs/z-shell/repositories) and some getting ready in China: https://gitee.com/z-shell/ it extends capabilities to no limit.
+However, ❮ [ZI](https://z-shell.pages.dev/) ❯ has almost [100 repositories](https://github.com/orgs/z-shell/repositories) and some getting ready in China: [gitee.com/z-shell](https://gitee.com/z-shell/) it extends capabilities to no limit.
 
-Is no limit not impressive? Well, then include almost all from here: https://github.com/unixorn/awesome-zsh-plugins as most are compatible :)
+Is no limit not impressive? Well, then include almost all from here: [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) as most are compatible :)
 
 > - Repositories: [ZI](https://github.com/z-shell/zi/), [ZUI](https://github.com/z-shell/zui/),
 > - Issue report: [ZUI](https://github.com/z-shell/zui/issue)
