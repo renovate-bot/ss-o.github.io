@@ -1,16 +1,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Salvydas Lukosius</title><link>https://ss-o.github.io/posts/</link><description>Recent content in Posts on Salvydas Lukosius</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><atom:link href="https://ss-o.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>❮ ⚙️ ⬢ ZUI For Zsh Hackers ⬢ ❯</title><link>https://ss-o.github.io/posts/1/01/%EF%B8%8F-zui-for-zsh-hackers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ss-o.github.io/posts/1/01/%EF%B8%8F-zui-for-zsh-hackers/</guid><description>❮ ZI ❯ is a fast and feature-rich plugin manager for Zsh Unix shell.
 ⬢ ZUI is CGI+DHTML-like User Interface Library for Zsh / ZCurses
 When both setup, I would say - quite a strong combo.
-However, ❮ ZI ❯ has almost 100 repositories and some getting ready in China: https://gitee.com/z-shell/ it extends capabilities to no limit.
-Is no limit not impressive? Well, then include almost all from here: https://github.</description><content type="html"><![CDATA[<!-- raw HTML omitted -->
+However, ❮ ZI ❯ has almost 100 repositories and some getting ready in China: gitee.com/z-shell it extends capabilities to no limit.
+Is no limit not impressive? Well, then include almost all from here: awesome-zsh-plugins as most are compatible :)</description><content type="html"><![CDATA[<!-- raw HTML omitted -->
 <hr>
 <!-- raw HTML omitted -->
 <p>❮ <a href="https://z-shell.pages.dev/">ZI</a> ❯ <strong>is a fast and feature-rich plugin manager for <a href="https://zsh.sourceforge.io/">Zsh</a> <a href="https://en.wikipedia.org/wiki/Unix_shell">Unix</a> shell.</strong></p>
 <p>⬢ <a href="https://github.com/z-shell/zui/">ZUI</a> is CGI+DHTML-like User Interface Library for Zsh / ZCurses</p>
 <!-- raw HTML omitted -->
 <p>When both setup, I would say - <strong>quite a strong combo</strong>.</p>
-<p>However, ❮ <a href="https://z-shell.pages.dev/">ZI</a> ❯ has almost <a href="https://github.com/orgs/z-shell/repositories">100 repositories</a> and some getting ready in China: <a href="https://gitee.com/z-shell/">https://gitee.com/z-shell/</a> it extends capabilities to no limit.</p>
-<p>Is no limit not impressive? Well, then include almost all from here: <a href="https://github.com/unixorn/awesome-zsh-plugins">https://github.com/unixorn/awesome-zsh-plugins</a> as most are compatible :)</p>
+<p>However, ❮ <a href="https://z-shell.pages.dev/">ZI</a> ❯ has almost <a href="https://github.com/orgs/z-shell/repositories">100 repositories</a> and some getting ready in China: <a href="https://gitee.com/z-shell/">gitee.com/z-shell</a> it extends capabilities to no limit.</p>
+<p>Is no limit not impressive? Well, then include almost all from here: <a href="https://github.com/unixorn/awesome-zsh-plugins">awesome-zsh-plugins</a> as most are compatible :)</p>
 <blockquote>
 <ul>
 <li>Repositories: <a href="https://github.com/z-shell/zi/">ZI</a>, <a href="https://github.com/z-shell/zui/">ZUI</a>,</li>
