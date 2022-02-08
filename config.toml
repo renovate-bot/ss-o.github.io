@@ -15,7 +15,7 @@ archetypeDir = "archetypes"
 contentDir   = "content"
 dataDir      = "data"
 layoutDir    = "layouts"
-publishDir   = "docs"
+publishDir   = ""
 
 buildDrafts  = true
 buildFuture  = true
