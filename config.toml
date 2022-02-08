@@ -126,14 +126,18 @@ disableHugoGeneratorInject = false
     alt      = "avatar"
     maxWidth = "260px"
 
-  # Social icons
+# Social icons
 # [[params.social]]
 #    name = ""
 #    url  = "https://go.digitalclouds.dev"
 
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/salldc/"
+    name  = "matrix"
+    url   = "https://matrix.to/#/@ss-o:matrix.org/"
+
+  [[params.social]]
+    name  = "twitter"
+    url   = "https://twitter.com/salldc/"
 
   [[params.social]]
     name = "email"
@@ -151,9 +155,9 @@ disableHugoGeneratorInject = false
     name = "linkedin"
     url  = "https://www.linkedin.com/in/ss-o/"
 
-  [[params.social]]
-    name = "stackoverflow"
-    url  = "https://stackoverflow.com/users/13893752/salvydas-lukosius"
+#  [[params.social]]
+#    name = "stackoverflow"
+#    url  = "https://stackoverflow.com/users/13893752/salvydas-lukosius"
 
 [languages]
   [languages.en]
@@ -171,11 +175,13 @@ disableHugoGeneratorInject = false
 #    identifier = "about"
 #    name       = "About"
 #    url        = "about/"
+
   [[menu.main]]
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
     weight = 2
+
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
