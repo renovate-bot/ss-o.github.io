@@ -2,10 +2,10 @@
 name: 👾 CodeQL
 
 on:
-  push:
-  pull_request:
-  schedule:
-    - cron: '15 21 * * 6'
+#  push:
+#  pull_request:
+#  schedule:
+#    - cron: '15 21 * * 6'
   workflow_dispatch:
 
 jobs:
