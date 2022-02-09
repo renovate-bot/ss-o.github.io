@@ -1,7 +1,7 @@
 baseURL = "https://ss-o.github.io/"
 title   = "Salvydas Lukosius"
 languageCode = "en-gb"
-#theme = "hello-friend-ng"
+theme = "hello-friend-ng"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -118,7 +118,7 @@ disableHugoGeneratorInject = false
     logoCursorColor    = "#00FF00"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     logoCursorAnimate  = "1.5s"
-  # 
+  #
   # Uncomment this if you want a portrait on your start page
   [params.portrait]
     path     = "img/ninja.png"
@@ -167,10 +167,10 @@ disableHugoGeneratorInject = false
     startLevel = 2
 
 [menu]
-#  [[menu.main]]
-#    identifier = "about"
-#    name       = "About"
-#    url        = "about/"
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "https://github.com/ss-o/"
 
   [[menu.main]]
     identifier  = "blog"
