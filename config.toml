@@ -1,5 +1,4 @@
-baseURL = "https://ss-o.github.io"
-#baseURL = "/"
+baseURL = "https://ss-o.github.io/"
 title   = "Salvydas Lukosius"
 languageCode = "en-gb"
 #theme = "hello-friend-ng"
@@ -9,7 +8,7 @@ PygmentsStyle = "monokai"
 
 paginate  = 10
 rssLimit  = 15
-#rssFullText = true
+rssFullText = true
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 googleAnalytics = "G-JCC6XDZ2G2"
 
@@ -53,10 +52,11 @@ disableHugoGeneratorInject = false
   priority = 0.5
 
 [params]
-  dateform        = "January 1, 2022"
-  dateformShort   = "Jan 2, 2022"
-  dateformNum     = "2022/01/02"
-  dateformNumTime = "2022-01-02 15:04 -0700"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
   #
   # Metadata mostly used in document's head
   description = "Personal Blog about All Open Source, Technology and Software"
