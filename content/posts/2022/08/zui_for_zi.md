@@ -3,7 +3,7 @@ author:
   name: "Salvydas Lukosius"
   url: https://github.com/ss-o
   image_url: https://github.com/ss-o.png
-date: 2022-08-02
+date: 2022-02-08
 linktitle: ❮ ⚙️ ⬢ ZUI For Zsh Hackers ⬢ ❯
 type:
 - post
