@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Salvydas Lukosius</title><link>https://ss-o.github.io/posts/</link><description>Recent content in Posts on Salvydas Lukosius</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Tue, 08 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ss-o.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>❮ ⚙️ ⬢ ZUI For Zsh Hackers ⬢ ❯</title><link>https://ss-o.github.io/posts/2022/02/%EF%B8%8F-zui-for-zsh-hackers/</link><pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate><guid>https://ss-o.github.io/posts/2022/02/%EF%B8%8F-zui-for-zsh-hackers/</guid><description>❮ ZI ❯ is a fast and feature-rich plugin manager for Zsh Unix shell.
 ⬢ ZUI is CGI+DHTML-like User Interface Library for Zsh / ZCurses
 When both setup, I would say - quite a strong combo.
-However, ❮ ZI ❯ has almost 100 repositories and some getting ready in China: gitee.com/z-shell it extends capabilities to no limit.
-Is no limit not impressive? Well, then include almost all from here: awesome-zsh-plugins as most are compatible :)</description><content type="html"><![CDATA[<h1 align="center">
+❮ ZI ❯ is supported by almost 100 repositories, compatible with the most from: awesome-zsh-plugins.
+Repositories: ZI, ZUI, Issue report: ZUI Wiki + Open-Search: https://z.digitalclouds.dev/search This is a RAD (Rapid Application Development) textual user interface library for Zsh.</description><content type="html"><![CDATA[<h1 align="center">
 <a href="https://github.com/z-shell/zi">
 <img src="https://raw.githubusercontent.com/z-shell/zi/main/docs/images/logo.png" alt="Logo" width="60" height="60" /></a></h1>
 <div align="center"><h2>
@@ -10,15 +10,12 @@ Is no limit not impressive? Well, then include almost all from here: awesome-zsh
 <p>⬢ <a href="https://github.com/z-shell/zui/">ZUI</a> is CGI+DHTML-like User Interface Library for Zsh / ZCurses</p>
 </div></h2>
 <p>When both setup, I would say - <strong>quite a strong combo</strong>.</p>
-<p>However, ❮ <a href="https://z-shell.pages.dev/">ZI</a> ❯ has almost <a href="https://github.com/orgs/z-shell/repositories">100 repositories</a> and some getting ready in China: <a href="https://gitee.com/z-shell/">gitee.com/z-shell</a> it extends capabilities to no limit.</p>
-<p>Is no limit not impressive? Well, then include almost all from here: <a href="https://github.com/unixorn/awesome-zsh-plugins">awesome-zsh-plugins</a> as most are compatible :)</p>
-<blockquote>
+<p>❮ <a href="https://z-shell.pages.dev/">ZI</a> ❯ is supported by almost <a href="https://github.com/orgs/z-shell/repositories">100 repositories</a>, compatible with the most from: <a href="https://github.com/unixorn/awesome-zsh-plugins">awesome-zsh-plugins</a>.</p>
 <ul>
 <li>Repositories: <a href="https://github.com/z-shell/zi/">ZI</a>, <a href="https://github.com/z-shell/zui/">ZUI</a>,</li>
 <li>Issue report: <a href="https://github.com/z-shell/zui/issue">ZUI</a></li>
 <li>Wiki + Open-Search: <a href="https://z.digitalclouds.dev/search">https://z.digitalclouds.dev/search</a></li>
 </ul>
-</blockquote>
 <hr>
 <p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xsa26k4ggw90kvrug95c.png" alt="ZI open search wiki"></p>
 <hr>
