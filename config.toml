@@ -4,6 +4,8 @@ languageCode = "en-gb"
 theme = "hello-friend-ng"
 
 PygmentsCodeFences = true
+Pygmentsstyle = "bw"
+Pygmentscodefencesguesssyntax = true
 PygmentsStyle = "monokai"
 
 paginate  = 10
