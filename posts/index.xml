@@ -2,10 +2,13 @@
 ⬢ ZUI is CGI+DHTML-like User Interface Library for Zsh / ZCurses
 When both setup, I would say - quite a strong combo.
 However, ❮ ZI ❯ has almost 100 repositories and some getting ready in China: gitee.com/z-shell it extends capabilities to no limit.
-Is no limit not impressive? Well, then include almost all from here: awesome-zsh-plugins as most are compatible :)</description><content type="html"><![CDATA[<!-- raw HTML omitted -->
+Is no limit not impressive? Well, then include almost all from here: awesome-zsh-plugins as most are compatible :)</description><content type="html"><![CDATA[<h1 align="center">
+<a href="https://github.com/z-shell/zi">
+<img src="https://raw.githubusercontent.com/z-shell/zi/main/docs/images/logo.png" alt="Logo" width="60" height="60" /></a></h1>
+<div align="center"><h2>
 <p>❮ <a href="https://z-shell.pages.dev/">ZI</a> ❯ <strong>is a fast and feature-rich plugin manager for <a href="https://zsh.sourceforge.io/">Zsh</a> <a href="https://en.wikipedia.org/wiki/Unix_shell">Unix</a> shell.</strong></p>
 <p>⬢ <a href="https://github.com/z-shell/zui/">ZUI</a> is CGI+DHTML-like User Interface Library for Zsh / ZCurses</p>
-<!-- raw HTML omitted -->
+</div></h2>
 <p>When both setup, I would say - <strong>quite a strong combo</strong>.</p>
 <p>However, ❮ <a href="https://z-shell.pages.dev/">ZI</a> ❯ has almost <a href="https://github.com/orgs/z-shell/repositories">100 repositories</a> and some getting ready in China: <a href="https://gitee.com/z-shell/">gitee.com/z-shell</a> it extends capabilities to no limit.</p>
 <p>Is no limit not impressive? Well, then include almost all from here: <a href="https://github.com/unixorn/awesome-zsh-plugins">awesome-zsh-plugins</a> as most are compatible :)</p>
@@ -316,7 +319,7 @@ shift <span style="color:#ae81ff">6</span>
 </code></pre></div><p>An application may override such default with its default. To change default per-application, invoke:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">zstyle <span style="color:#e6db74">&#34;:plugin:zui:app:zui-demo-fly&#34;</span> colorpair <span style="color:#e6db74">&#34;250/17&#34;</span>  <span style="color:#75715e"># 256 colors – zsh &gt;= 5.3; &#34;default&#34; color also from this version</span>
 </code></pre></div><p>Below is a complete list of available Zstyles with ZUI default values.</p>
-<!-- raw HTML omitted -->
+<APITable>
 <table>
 <thead>
 <tr>
@@ -453,7 +456,7 @@ shift <span style="color:#ae81ff">6</span>
 </tr>
 </tbody>
 </table>
-<!-- raw HTML omitted -->
+</APITable>
 <p>All Zstyles are available in ZUI repository: <a href="https://github.com/z-shell/zui/blob/main/docs/ZSTYLES.md">Zstyles</a></p>
 <h3 id="example---hello-world">Example - Hello World</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Started from Zle or from the command line</span>
