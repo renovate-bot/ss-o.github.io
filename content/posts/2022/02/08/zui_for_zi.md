@@ -31,13 +31,11 @@ tags:
 
 When both setup, I would say - **quite a strong combo**. 
 
-However, ❮ [ZI](https://z-shell.pages.dev/) ❯ has almost [100 repositories](https://github.com/orgs/z-shell/repositories) and some getting ready in China: [gitee.com/z-shell](https://gitee.com/z-shell/) it extends capabilities to no limit.
-
-Is no limit not impressive? Well, then include almost all from here: [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) as most are compatible :)
-
-> - Repositories: [ZI](https://github.com/z-shell/zi/), [ZUI](https://github.com/z-shell/zui/),
-> - Issue report: [ZUI](https://github.com/z-shell/zui/issue)
-> - Wiki + Open-Search: https://z.digitalclouds.dev/search
+❮ [ZI](https://z-shell.pages.dev/) ❯ is supported by almost [100 repositories](https://github.com/orgs/z-shell/repositories), compatible with the most from: [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins).
+ 
+- Repositories: [ZI](https://github.com/z-shell/zi/), [ZUI](https://github.com/z-shell/zui/),
+- Issue report: [ZUI](https://github.com/z-shell/zui/issue)
+- Wiki + Open-Search: https://z.digitalclouds.dev/search
 
 ---
 
