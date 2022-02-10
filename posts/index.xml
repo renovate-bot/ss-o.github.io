@@ -194,12 +194,12 @@ parameter<span style="color:#f92672">=</span>1|2|<span style="color:#ae81ff">3</
 <h4 id="-zui_std_map_replies">-zui_std_map_replies</h4>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">-zui_std_map_replies
 </code></pre></div><p>Generator output should be mapped onto parameters:</p>
-<pre tabindex="0"><code>mod${midx}_ice${iidx}_output
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">mod${midx}_ice${iidx}_output
 mod${midx}_ice${iidx}_size
 mod${midx}_ice${iidx}_nonselectables
 mod${midx}_ice${iidx}_hops
 mod${midx}_ice${iidx}_anchors
-</code></pre><p>This function does this. It should normally not be needed, <code>-zui_std_fly_mod_regen</code> does this automatically.</p>
+</code></pre></div><p>This function does this. It should normally not be needed, <code>-zui_std_fly_mod_regen</code> does this automatically.</p>
 <hr>
 <h4 id="-zui_std_fly_mod_regen">-zui_std_fly_mod_regen</h4>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">-zui_std_fly_mod_regen &lt;module index&gt; &lt;instance index&gt;
