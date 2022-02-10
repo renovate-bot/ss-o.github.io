@@ -7,7 +7,7 @@ PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
 paginate  = 10
-rssLimit  = 15
+rssLimit  = 10
 rssFullText = true
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 googleAnalytics = "G-JCC6XDZ2G2"
@@ -50,6 +50,9 @@ disableHugoGeneratorInject = false
   changefreq = "daily"
   filename = "sitemap.xml"
   priority = 0.5
+
+[outputs]
+  home = ["HTML", "RSS"]
 
 [params]
   dateform        = "Jan 2, 2006"
