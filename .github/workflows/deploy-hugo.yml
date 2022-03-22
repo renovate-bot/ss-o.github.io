@@ -26,7 +26,7 @@ jobs:
 #        with:
 #          node-version: '16'
 #      - name: Cache dependencies
-#        uses: actions/cache@v2
+#        uses: actions/cache@v3
 #        with:
 #          path: ~/.npm
 #          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -45,7 +45,7 @@ jobs:
 #          alias asciidoctor="asciidoctor --attribute=experimental=true --attribute=icons=font"
 #          hugo --minify
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         with:
           path: /tmp/hugo_cache
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
